@@ -1,5 +1,10 @@
 # ProyectoNOSQL
-En este proyecto se genera una base de datos de grafos capaz de manejar distancias viajadas, personas y relaciones entre lugares y personas
+En este proyecto se genera una base de datos de grafos capaz de manejar distancias viajadas, personas y relaciones entre lugares y personas.
+
+Se utilizan los lenguajes:
+* R
+* Cypher de la base de datos Neo4j
+* DO de las bases de datos de InfiniteGraph.
 
 ## Generación de datos
 Se generó aleatoriamente un archivo CSV,utilizando el lenguaje de programación R, con todos los datos necesarios, personas, sus edades, a quienes sigue, donde se ubica al incio de sus viajes, donde se ubica al final de sus viajes y la fecha de estos respectivos viajes. 
