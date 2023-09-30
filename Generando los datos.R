@@ -35,4 +35,4 @@ df <- data.frame( ###Generar data frame
 names(df)<-c("ID","Nombre","Edad","Vive en","ID sigue1","ID sigue2","Coord. Viaje1","Fecha Viaje 1","Coord. Viaje2","Fecha Viaje 2") ### Se le da un nombre a cada columna de la tabla, para facilitar búsqueda más adelante.
 
 setwd("C:/Users/danie/OneDrive/Cosas/Escritorio") ### Se elige donde se debe guardar el csv
-write.csv(df,file = "datosfalsos.csv") ### Se guarda el csv
+write.csv(df,file = "datossimulados.csv") ### Se guarda el csv
