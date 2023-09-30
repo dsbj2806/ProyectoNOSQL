@@ -17,4 +17,5 @@ También se debe de decir que en las bases de datos de grafos las relaciones son
 * Una relación de *seguimiento*, no de amistad, similar a la red social Instagram
   * En este caso, cada persona puede tener,como máximo, n-1 seguidores(Ya que no se puede seguir a sí misma), pero para facilitar la generación de los datos, cada persona puede seguir solo a dos personas.
 
+El archivo CSV utilizado está en el repositorio como "datosimulados.csv" sin embargo se invita a utilizar el código con los que se generaron y crear un archivo propio con los cambios deseados. 
 
