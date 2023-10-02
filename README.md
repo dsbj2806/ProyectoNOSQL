@@ -23,5 +23,7 @@ El archivo CSV utilizado está en el repositorio como "datossimulados.csv" sin e
 
 ### Instalación de InfiniteGraph
 
-De la web oficial de [InfiniteGraph](https://infinitegraph.com/free-download/) podemos descargar los archivos directamente.
+De la web oficial de [InfiniteGraph](https://infinitegraph.com/free-download/) podemos descargar los archivos directamente. Estos archivos vienen en un .ZIP que podemos extraer donde queramos, en este caso los vamos a exrtraer en Disco Local(C:) en una carpeta llamada "InfiniteGraph"
 
+Debería de quedarnos algo así
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/94d5c9b1-0ce5-4bcd-833f-e4dbe3df256d)
