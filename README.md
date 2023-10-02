@@ -19,3 +19,9 @@ También se debe de decir que en las bases de datos de grafos las relaciones son
 
 El archivo CSV utilizado está en el repositorio como "datossimulados.csv" sin embargo se invita a utilizar el código con los que se generaron y crear un archivo propio con los cambios deseados. 
 
+## Instalaciones 
+
+### Instalación de InfiniteGraph
+
+De la web oficial de [InfiniteGraph](https://infinitegraph.com/free-download/) podemos descargar los archivos directamente.
+
