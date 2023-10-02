@@ -66,4 +66,4 @@ Y por último entramos desde nuestro navegador preferido al siguiente "Enlace":
 http://localhost:8190 
 
 
-
+**NOTA:** El .ZIP se debería de poder extraer en cualquier carpeta de la computadora, por lo que si se escoge una carpeta diferente para almacenar, solo debemos de asegurarnos de que el PATH esté bien especificado y sea congrunte entre los pasos que lo necesitan. 
