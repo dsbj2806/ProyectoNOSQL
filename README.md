@@ -50,7 +50,9 @@ Y vamoos a buscar la opciíon PATH en Variables del sistema:
 
 Una vez en Path vamos a agregar un nuevo Path y en examinar buscamos la carpeta bin de infinitegraph
 
-Que debería de verse así: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/b53c64fa-2efe-4f87-bb36-4924fac5d1ae)
+Que debería de verse así: 
+
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/b53c64fa-2efe-4f87-bb36-4924fac5d1ae)
 
 Luego de esto, en el escritorio damos click derecho abrir en terminal:
 Y escribimos en la terminal lo siguiente: 
