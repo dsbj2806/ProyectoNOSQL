@@ -27,3 +27,43 @@ De la web oficial de [InfiniteGraph](https://infinitegraph.com/free-download/) p
 
 Debería de quedarnos algo así
 ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/94d5c9b1-0ce5-4bcd-833f-e4dbe3df256d)
+
+Una vez con esto hecho podemos avanzar al siguiente paso, que es agregar un PATH
+
+Esto se hace de la siguiente forma:
+
+En configuración nos vamos a Sistema 
+
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/ff41334e-b69f-413d-a6a8-f681694453d1)
+
+En sistema bajamos hasta información. 
+Y buscamos la opción "Configuración Avanzada del sistema"
+
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/fc859826-131b-4945-b542-b9dea52642a5)
+
+Y ahí vamos a entrar en las variables de entorno que deberiá de verse algo así: 
+
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/03c7f05c-d829-41d3-ac41-b5a704dd3a7f)
+
+Y vamoos a buscar la opciíon PATH en Variables del sistema: 
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/2a606d53-d768-4867-936c-95fbad306f04)
+
+Una vez en Path vamos a agregar un nuevo Path y en examinar buscamos la carpeta bin de infinitegraph
+
+Que debería de verse así: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/b53c64fa-2efe-4f87-bb36-4924fac5d1ae)
+
+Luego de esto, en el escritorio damos click derecho abrir en terminal:
+Y escribimos en la terminal lo siguiente: 
+C:\InfiniteGraph\bin\objy startlockserver -noscm 
+Y le damos enter 
+
+Después escribimos lo siguiente: 
+
+C:\InfiniteGraph\bin\objy startstudioserver -noscm 
+
+Y por último entramos desde nuestro navegador preferido al siguiente "Enlace": 
+
+http://localhost:8190 
+
+
+
