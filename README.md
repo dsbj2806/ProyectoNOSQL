@@ -61,7 +61,7 @@ Y le damos enter
 
 Después escribimos lo siguiente: 
 
-C:\InfiniteGraph\bin\objy startstudioserver -noscm 
+C:\InfiniteGraph\bin\objy startstudioserver
 
 Y por último entramos desde nuestro navegador preferido al siguiente "Enlace": 
 
