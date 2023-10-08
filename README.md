@@ -70,7 +70,7 @@ http://localhost:8190
 
 **NOTA:** El .ZIP se debería de poder extraer en cualquier carpeta de la computadora, por lo que si se escoge una carpeta diferente para almacenar, solo debemos de asegurarnos de que el PATH esté bien especificado y sea congrunte entre los pasos que lo necesitan. 
 
-##Cargar los datos de un CSV a Neo4j
+## Cargar los datos de CSV a Neo4j 
 
 El código utiliza Neo4j para cargar datos desde un archivo CSV, crear nodos para personas, ubicaciones y viajes, establecer relaciones entre ellos y realizar consultas. A continuación, una descripción de cada sección:
 
@@ -82,6 +82,7 @@ Luego, se crea un nodo para las ubicaciones únicas. La línea `WITH DISTINCT ro
 Asimismo, se deben crear nodos para representar viajes y establecer relaciones entre personas, viajes y ubicaciones. Se realiza en dos partes, una para cada posible viaje, primero se verifica si la columna `Coord. Viaje1` no es nula con la condición `WHERE row.CoordViaje1 IS NOT NULL`. Si esa condición es verdadera, se crean nodos de tipo "Persona" y "Ubicación" si aún no existen y se establecen relaciones entre ellos y el nodo de tipo "Viaje" para representar el primer viaje. Las relaciones incluyen "REALIZA" entre personas y viajes, así como "DESTINO" entre viajes y ubicaciones. Del mismo modo, se crea una para viaje 2, igual se verifica que la columna `Coord. Viaje2` no es nula. Si es cierto, se crean nodos de tipo "Viaje" para representar el segundo viaje y se establecen relaciones "REALIZA" entre personas y viajes.
 Finalmente, se crean relaciones entre personas para representar a quién sigue cada persona. Se verifican las columnas `ID sigue1` e `ID sigue2` para determinar si una persona sigue a otra. Si es así, se usa `MATCH` y `MERGE` para crear relaciones "SIGUE" entre las personas correspondientes.
 
+## Realizar consultas para verificar la exportación de datos 
 Ahora, para verificar que funcionen los nodos y relaciones, usaremos el archivo llamado “Para_ver_mis_nodos”, y realizaremos las siguientes consultas:
 La consulta `MATCH (n) RETURN n;` muestra todos los nodos en la base de datos.
 La consulta `MATCH (p:Persona) RETURN p;` devuelve todos los nodos de tipo "Persona".
