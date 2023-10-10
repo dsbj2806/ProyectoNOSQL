@@ -12,6 +12,8 @@ for (i in 1:n) {
   sigue1[i]<-mamigo[1] ## Se introducen en los vectores sigue1 y sigue2
   sigue2[i]<-mamigo[2]
 }
+mtransporte1<-sample(c("Avion","Autobus","Bicicleta","Tren","Barco","A pie","Otro"), n, replace = TRUE)## Se generan medios de transporte aleatorios
+mtransporte2<-sample(c("Avion","Autobus","Bicicleta","Tren","Barco","A pie","Otro"), n, replace = TRUE)
 inicio2021<- as.Date("2021-01-01") ###Simplemente se declaran Fechas de inicio y de final para facilitar las cosas más adelante.
 final2021 <- as.Date("2021-12-31")
 inicio2022<- as.Date("2022-01-01")
@@ -27,12 +29,14 @@ df <- data.frame( ###Generar data frame
   sigue2,
   viaje1<-paste( runif(n, -90, 90),runif(n,-180,180),sep = ","),##Acá se generan aleatoriamente valores de latitud y longitud, para generar un viaje.
   fechaviaje1<- sample(seq(inicio2021, final2021, by="days"), n,replace = T), ## Se usan fechas aleatorias de 2021
+  mtransporte1,
   viaje2<-paste( runif(n, -90, 90),runif(n,-180,180),sep = ","),
-  fechaviaje2<- sample(seq(inicio2022, final2022, by="days"), n,replace = T) ## Se usan fechas aleatorias de 2022, solo para asegurarse de que una persona no haga dos viajes largos el mismo día.
-)
+  fechaviaje2<- sample(seq(inicio2022, final2022, by="days"), n,replace = T), ## Se usan fechas aleatorias de 2022, solo para asegurarse de que una persona no haga dos viajes largos el mismo día.
+  mtransporte2
+  )
 
 
-names(df)<-c("ID","Nombre","Edad","Vive en","ID sigue1","ID sigue2","Coord. Viaje1","Fecha Viaje 1","Coord. Viaje2","Fecha Viaje 2") ### Se le da un nombre a cada columna de la tabla, para facilitar búsqueda más adelante.
+names(df)<-c("ID","Nombre","Edad","Vive en","ID sigue1","ID sigue2","Coord. Viaje1","Fecha Viaje 1","Transporte1","Coord. Viaje2","Fecha Viaje 2","Transporte2") ### Se le da un nombre a cada columna de la tabla, para facilitar búsqueda más adelante.
 
 setwd("C:/Users/danie/OneDrive/Cosas/Escritorio") ### Se elige donde se debe guardar el csv
 write.csv(df,file = "datossimulados.csv") ### Se guarda el csv.
