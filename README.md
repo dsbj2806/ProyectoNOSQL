@@ -67,4 +67,35 @@ Y de este modo verificar que funcione tanto la carga de datos como los nodos y r
 
 
 
+### Cargar los datos de CSV a GraphDB
+
+Para convertir datos de CSV a RDF en GraphDB, podemos usar el plugin OntoRefine, que está integrado en el Workbench de GraphDB.
+Para ello, se deben seguir los siguientes pasos:
+
+1.	Iniciamos GraphDB en modo Workbench.
+  
+2.	Creamos un proyecto.
+
+3.	Importamos el archivo CSV.
+   
+4.	Definimos el mapeo entre los datos de CSV y el modelo RDF.
+
+5.	Generamos el modelo RDF.
+
+Paso 1: Iniciar GraphDB en modo Workbench
+Para iniciar GraphDB en modo Workbench, se debe abrir un navegador y escribir la dirección http://localhost:7200/.
+
+Paso 2: Crear un proyecto. Para crear un proyecto, hacemos clic en el botón "Create Project".
+
+Paso 3: Importar el archivo CSV
+Para importar el archivo CSV, hacemos clic en el botón "Import" > "Tabular (OntoRefine)".
+Seleccionamos el archivo CSV y procedemos a hacer clic en el botón "Open".
+
+Paso 4: Definir el mapeo entre los datos de CSV y el modelo RDF.
+OntoRefine nos permite definir el mapeo entre los datos de CSV y el modelo RDF. Para ello, hacemos clic en el botón "Map".
+En la ventana "Map", podemos definir el mapeo entre los campos del archivo CSV y las propiedades del modelo RDF.
+
+Paso 5: Generar el modelo RDF
+Una vez que se haya definido el mapeo, vamos a generar el modelo RDF. Para ello, hacemos clic en el botón "Generate".
+OntoRefine generará el modelo RDF y lo almacenará en el proyecto.
 
