@@ -6,6 +6,13 @@ Se utilizan los lenguajes:
 * Cypher de la base de datos Neo4j
 * DO de las bases de datos de InfiniteGraph.
 
+## Instalación de programas
+
+### R y RStudio
+Para generar los datos se utilizó RStudio, por lo cual es necesario explicar como instalar R y RStudio en la computadora. 
+
+1) El primer paso es instalar **R**, para eso debemos ir a [esta página web](https://cran.r-project.org/bin/windows/base/)
+
 ## Generación de datos
 Se generó aleatoriamente un archivo CSV,utilizando el lenguaje de programación R, con todos los datos necesarios, personas, sus edades, a quienes sigue, donde se ubica al incio de sus viajes, donde se ubica al final de sus viajes y la fecha de estos respectivos viajes. 
 
