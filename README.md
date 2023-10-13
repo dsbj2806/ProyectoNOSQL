@@ -11,7 +11,12 @@ Se utilizan los lenguajes:
 ### R y RStudio
 Para generar los datos se utilizó RStudio, por lo cual es necesario explicar como instalar R y RStudio en la computadora. 
 
-1) El primer paso es instalar **R**, para eso debemos ir a [esta página web](https://cran.r-project.org/bin/windows/base/)
+1) El primer paso es instalar **R**, para eso debemos ir a [esta página web](https://cran.r-project.org/bin/windows/base/) y debemos seleccionar la siguiente opción: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/7a7bf50e-9b3e-49a9-b5a6-cb78b5062a8d)
+
+
+### Neo4j
+
+### GraphDB
 
 ## Generación de datos
 Se generó aleatoriamente un archivo CSV,utilizando el lenguaje de programación R, con todos los datos necesarios, personas, sus edades, a quienes sigue, donde se ubica al incio de sus viajes, donde se ubica al final de sus viajes y la fecha de estos respectivos viajes. 
@@ -26,10 +31,7 @@ También se debe de decir que en las bases de datos de grafos las relaciones son
 
 El archivo CSV utilizado está en el repositorio como "datossimulados.csv" sin embargo se invita a utilizar el código con los que se generaron y crear un archivo propio con los cambios deseados. 
 
-## Instalaciones 
-### Neo4j
 
-### GraphDB
 
 
 ## Utilización de los softwares
