@@ -37,6 +37,22 @@ Para generar los datos se utilizó RStudio, por lo cual es necesario explicar co
 
 ### GraphDB
 
+Instalar GraphDB tampoco debería suponer un problema. Para hacerlo podemos seguir los siguientes pasos:  
+
+1) Dirigirse a la siguiente [Dirección](https://graphdb.ontotext.com/)
+
+2) Seleccionar esta opcíon: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/a2d96fa8-5622-4a4c-a4bf-85a437e0f1da)
+
+3) Llenar la siguiente información: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/78c5d42f-fcf8-46c5-b654-80cb7112e166)
+     * Un correo electronico será enviado con la información de descarga.
+4) El correo debería verse algo así: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/48aae7a3-f6e1-48f8-aa67-43dacc1b32f5)ç
+   * Seleccionamos la opcion de nuestro sistema operativo. En este caso, windows, eso debría iniciar la instalación
+5) Una vez descargado el instalador,aceptamos los terminos y condiciones y le damos siguiente.
+6) Una vez instalado se puede ver algo así: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/c359cd61-4fa0-4484-97a7-8a8016eb2087)
+
+
+ 
+
 ## Generación de datos
 Se generó aleatoriamente un archivo CSV,utilizando el lenguaje de programación R, con todos los datos necesarios, personas, sus edades, a quienes sigue, donde se ubica al incio de sus viajes, donde se ubica al final de sus viajes y la fecha de estos respectivos viajes. 
 
