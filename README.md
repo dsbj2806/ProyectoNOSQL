@@ -13,20 +13,20 @@ Para generar los datos se utilizó RStudio, por lo cual es necesario explicar co
 
 1) El primer paso es instalar **R**, para eso debemos ir a [esta página web](https://cran.r-project.org/bin/windows/base/) y debemos seleccionar la siguiente opción: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/7a7bf50e-9b3e-49a9-b5a6-cb78b5062a8d)
 
-* Eso iniciara la descarga la cual vamos a almacenar en la dirección de nuestra computadora que queramos.
+    * Eso iniciara la descarga la cual vamos a almacenar en la dirección de nuestra computadora que queramos.
     
-* Deberíamos tener algo así: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/1cb21a09-11d2-4b5a-bd97-53662aa44e93)
+    * Deberíamos tener algo así: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/1cb21a09-11d2-4b5a-bd97-53662aa44e93)
 
-* Al abrirlo podemos escoger el idioma que queramos para R y simplemente seguir los pasos del instalador. Es bastante sencillo. No hay que seleccionar ninguna configuración en especial, por lo cual se puede solo precionar "Siguiente" hasta que termine.
+    * Al abrirlo podemos escoger el idioma que queramos para R y simplemente seguir los pasos del instalador. Es bastante sencillo. No hay que seleccionar ninguna configuración en especial, por lo cual se puede solo precionar "Siguiente" hasta que termine.
 
 2) El segundo paso es instalar **RStudio**. Para hacerlo debemos primero dirigirnos a la siguiente [dirección](https://posit.co/download/rstudio-desktop/) y seleccionar la siguiente opción: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/6eea3014-c2f9-47c3-ba27-98318fa587e2)
 
-* Igualmente eso debería de iniciar la descarga del instalador y que debería de verse algo así:
+    * Igualmente eso debería de iniciar la descarga del instalador y que debería de verse algo así:
 ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/65b251e2-2113-4baf-963b-b135246a237a)
 
-* De igual forma que con R, podemos simplemente precionar "Siguiente" en todas las opciones pues no requiere ninguna instalación especial. 
+    * De igual forma que con R, podemos simplemente precionar "Siguiente" en todas las opciones pues no requiere ninguna instalación especial. 
 
-* Una vez realizado todo el proceso deberíamos poder usar RStudio, el cual se ve de esta forma:
+    * Una vez realizado todo el proceso deberíamos poder usar RStudio, el cual se ve de esta forma:
 ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/d3af257a-67fb-4acb-a546-adb515147bf2)
 
  
