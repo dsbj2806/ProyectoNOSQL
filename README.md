@@ -69,7 +69,7 @@ El archivo CSV utilizado está en el repositorio como "datossimulados.csv" sin e
 
 
 
-## Utilización de los softwares
+## Utilización de los productos
 ### Cargar los datos de CSV a Neo4j 
 
 El código utiliza Neo4j para cargar datos desde un archivo CSV, crear nodos para personas, ubicaciones y viajes, establecer relaciones entre ellos y realizar consultas. A continuación, una descripción de cada sección:
