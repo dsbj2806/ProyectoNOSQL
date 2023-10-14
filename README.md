@@ -61,6 +61,9 @@ Seleccionamos el sistema operativo correspondiente:
 
 Una vez descargado el instalador,aceptamos los terminos y condiciones y le damos siguiente.
 
+Instalado se puede ver de la siguiente forma:
+<img width="910" alt="image" src="https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/5aa3be6c-6d1d-4d7e-8109-d2ecc3f122b2">
+
  
 
 ## Generación de datos
