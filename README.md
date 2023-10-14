@@ -55,6 +55,12 @@ Instalar GraphDB tampoco debería suponer un problema. Para hacerlo podemos segu
 Para descaragar OntoRefine debemos dirigirnos a la siguiente dirección: https://www.ontotext.com/products/ontotext-refine/
 <img width="652" alt="image" src="https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/8cb1acff-a140-4dda-8750-222ba14918ae">
 
+Seleccionamos el sistema operativo correspondiente:
+
+<img width="605" alt="image" src="https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/425f9564-92da-42c2-a7fb-79cc211811b3">
+
+Una vez descargado el instalador,aceptamos los terminos y condiciones y le damos siguiente.
+
  
 
 ## Generación de datos
