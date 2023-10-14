@@ -75,7 +75,7 @@ El archivo CSV utilizado está en el repositorio como "datossimulados.csv" sin e
 El código utiliza Neo4j para cargar datos desde un archivo CSV, crear nodos para personas, ubicaciones y viajes, establecer relaciones entre ellos y realizar consultas. A continuación, una descripción de cada sección:
 
 
-Empezamos usando el documento llamado “Codigo_para_cargar_base.cypher”. La línea `LOAD CSV WITH HEADERS FROM 'file:///csvpequeño.csv' AS row` significa que está leyendo un archivo CSV llamado 'csvpequeño.csv' y se asigna cada fila a una variable llamada `row`. El atributo `WITH HEADERS` quiere decir que la primera fila del archivo CSV contiene los nombres de las columnas.
+Empezamos usando el documento llamado “Codigo_para_cargar_base.cypher”. La línea `LOAD CSV WITH HEADERS FROM 'file:///datossimulados.csv' AS row` significa que está leyendo un archivo CSV llamado 'csvpequeño.csv' y se asigna cada fila a una variable llamada `row`. El atributo `WITH HEADERS` quiere decir que la primera fila del archivo CSV contiene los nombres de las columnas.
 
 
 Seguidamente, se procede a la creación de nodos para representar personas en la base de datos Neo4j. La línea `CREATE (:Persona {ID: row.ID, Nombre: row.Nombre, Edad: row.Edad, ViveEn: row.ViveEn})` crea un nodo de tipo "Persona" con propiedades como ID, Nombre, Edad y ViveEn. Estas se obtienen de las columnas del archivo CSV utilizando la variable `row`.
