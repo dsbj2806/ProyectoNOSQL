@@ -19,3 +19,9 @@ WHERE {
   BIND( ?c_Fecha Viaje 2 AS ?Fecha Viaje 2 ) .
   BIND( ?c_Transporte2 AS ?Transporte2 ) .
  }
+
+BASE <http://example.com/base/>
+SELECT * WHERE {
+  ?s ?p ?o .
+} LIMIT 100
+
