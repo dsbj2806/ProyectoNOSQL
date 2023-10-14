@@ -1,27 +1,47 @@
 BASE <http://example.com/base/>
-SELECT * 
-WHERE {
-  BIND( ?c_Column AS ?Column ) .
-  BIND( ?c_ID AS ?ID ) .
-  BIND( ?c_Nombre AS ?Nombre ) .
-  BIND( ?c_Edad AS ?Edad ) .
-  BIND( ?c_Vive en AS ?Vive en ) .
-  BIND( ?c_ID sigue1 AS ?ID sigue1 ) .
-  BIND( ?c_ID sigue2 AS ?ID sigue2 ) .
-  BIND( ?c_Coord.
- Viaje1 AS ?Coord.
- Viaje1 ) .
-  BIND( ?c_Fecha Viaje 1 AS ?Fecha Viaje 1 ) .
-  BIND( ?c_Transporte1 AS ?Transporte1 ) .
-  BIND( ?c_Coord.
- Viaje2 AS ?Coord.
- Viaje2 ) .
-  BIND( ?c_Fecha Viaje 2 AS ?Fecha Viaje 2 ) .
-  BIND( ?c_Transporte2 AS ?Transporte2 ) .
- }
+PREFIX mapper: <http://www.ontotext.com/mapper/>
 
-BASE <http://example.com/base/>
-SELECT * WHERE {
-  ?s ?p ?o .
-} LIMIT 100
-
+CONSTRUCT {
+    ?s1 <ID> ?o_ID .
+    ?s2 <Tiene> ?o_Tiene .
+    ?s3 <Vive> ?o_Vive .
+    ?s4 <Sigue%20#1> ?o_Sigue__1 .
+    ?s5 <Sigue%20#2> ?o_Sigue__2 .
+    ?s6 <Fecha%201er%20viaje> ?o_Fecha_1er_viaje .
+    ?s7 <Transporte%20viaje%20#1> ?o_Transporte_viaje__1 .
+    ?s8 <Coordenada%20viaje%20#1> ?o_Coordenada_viaje__1 .
+    ?s9 <Fecha%202do%20viaje> ?o_Fecha_2do_viaje .
+    ?s10 <Transporte%20viaje%20#2> ?o_Transporte_viaje__2 .
+    ?s11 <Coordenada%20viaje%20#2> ?o_Coordenada_viaje__2 .
+} WHERE {
+    SERVICE <http://localhost:7333/repositories/ontorefine:2264544805432>  {
+        # Columns as variables:
+        #   ?c_Column, ?c_ID, ?c_Nombre, ?c_Edad, ?c_Vive_en, ?c_ID_sigue1, ?c_ID_sigue2,
+        #   ?c_Coord__Viaje1, ?c_Fecha_Viaje_1, ?c_Transporte1, ?c_Coord__Viaje2,
+        #   ?c_Fecha_Viaje_2, ?c_Transporte2
+        # Metadata as variables:
+        #   ?row_index, ?record_id
+        BIND(IRI(mapper:encode_iri(?c_Nombre)) as ?s1)
+        BIND(IRI(mapper:encode_iri(?c_ID)) as ?o_ID)
+        BIND(IRI(mapper:encode_iri(?c_Nombre)) as ?s2)
+        BIND(IRI(mapper:encode_iri(?c_Edad)) as ?o_Tiene)
+        BIND(IRI(mapper:encode_iri(?c_Nombre)) as ?s3)
+        BIND(IRI(mapper:encode_iri(?c_Vive_en)) as ?o_Vive)
+        BIND(IRI(mapper:encode_iri(?c_Nombre)) as ?s4)
+        BIND(IRI(mapper:encode_iri(?c_ID_sigue1)) as ?o_Sigue__1)
+        BIND(IRI(mapper:encode_iri(?c_Nombre)) as ?s5)
+        BIND(IRI(mapper:encode_iri(?c_ID_sigue2)) as ?o_Sigue__2)
+        BIND(IRI(mapper:encode_iri(?c_Nombre)) as ?s6)
+        BIND(IRI(mapper:encode_iri(?c_Fecha_Viaje_1)) as ?o_Fecha_1er_viaje)
+        BIND(IRI(mapper:encode_iri(?c_Nombre)) as ?s7)
+        BIND(IRI(mapper:encode_iri(?c_Transporte1)) as ?o_Transporte_viaje__1)
+        BIND(IRI(mapper:encode_iri(?c_Nombre)) as ?s8)
+        BIND(IRI(mapper:encode_iri(?c_Coord__Viaje1)) as ?o_Coordenada_viaje__1)
+        BIND(IRI(mapper:encode_iri(?c_Nombre)) as ?s9)
+        BIND(IRI(mapper:encode_iri(?c_Fecha_Viaje_2)) as ?o_Fecha_2do_viaje)
+        BIND(IRI(mapper:encode_iri(?c_Nombre)) as ?s10)
+        BIND(IRI(mapper:encode_iri(?c_Transporte2)) as ?o_Transporte_viaje__2)
+        BIND(IRI(mapper:encode_iri(?c_Nombre)) as ?s11)
+        BIND(IRI(mapper:encode_iri(?c_Coord__Viaje2)) as ?o_Coordenada_viaje__2)
+    }
+}
