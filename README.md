@@ -156,3 +156,12 @@ Paso 5: Generar el modelo RDF
 Una vez que se haya definido el mapeo, vamos a generar el modelo RDF. Para ello, hacemos clic en el botón "Generate".
 OntoRefine generará el modelo RDF y lo almacenará en el proyecto.
 
+Visual RDF Mapper:
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/1e05c346-8ee1-4bca-a2d1-43ff85c25496)
+
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/484e03ec-8f5c-4402-90e5-c1a0c482c3e9)
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/8dc60b26-389e-4b86-8b37-feffa2ef3b80)
+
+
+
+
