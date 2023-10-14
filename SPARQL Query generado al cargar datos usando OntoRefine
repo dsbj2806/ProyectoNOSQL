@@ -1,0 +1,21 @@
+BASE <http://example.com/base/>
+SELECT * 
+WHERE {
+  BIND( ?c_Column AS ?Column ) .
+  BIND( ?c_ID AS ?ID ) .
+  BIND( ?c_Nombre AS ?Nombre ) .
+  BIND( ?c_Edad AS ?Edad ) .
+  BIND( ?c_Vive en AS ?Vive en ) .
+  BIND( ?c_ID sigue1 AS ?ID sigue1 ) .
+  BIND( ?c_ID sigue2 AS ?ID sigue2 ) .
+  BIND( ?c_Coord.
+ Viaje1 AS ?Coord.
+ Viaje1 ) .
+  BIND( ?c_Fecha Viaje 1 AS ?Fecha Viaje 1 ) .
+  BIND( ?c_Transporte1 AS ?Transporte1 ) .
+  BIND( ?c_Coord.
+ Viaje2 AS ?Coord.
+ Viaje2 ) .
+  BIND( ?c_Fecha Viaje 2 AS ?Fecha Viaje 2 ) .
+  BIND( ?c_Transporte2 AS ?Transporte2 ) .
+ }
