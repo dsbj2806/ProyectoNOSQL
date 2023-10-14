@@ -50,6 +50,10 @@ Instalar GraphDB tampoco debería suponer un problema. Para hacerlo podemos segu
 5) Una vez descargado el instalador,aceptamos los terminos y condiciones y le damos siguiente.
 6) Una vez instalado se puede ver algo así: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/c359cd61-4fa0-4484-97a7-8a8016eb2087)
 
+### OntoRefine
+
+Para descaragar OntoRefine debemos dirigirnos a la siguiente dirección: https://www.ontotext.com/products/ontotext-refine/
+<img width="652" alt="image" src="https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/8cb1acff-a140-4dda-8750-222ba14918ae">
 
  
 
