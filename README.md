@@ -37,7 +37,8 @@ Para generar los datos se utilizó RStudio, por lo cual es necesario explicar co
 Para crear las conexiones en nuestro volumen de datos y las consultas correspondientes, uno de los software que se utilizó fue Neo4j.
 Para instalarlo se pueden seguir los siguientes pasos: 
 
-1. Dirigirse a esta [esta página web]https://neo4j.com/download/
+1) Dirigirse a esta [esta página web](https://neo4j.com/download/)
+2) Posteriormente seleccionar Download: 
 
 ### GraphDB
 
