@@ -29,8 +29,6 @@ Para generar los datos se utilizó RStudio, por lo cual es necesario explicar co
     * Una vez realizado todo el proceso deberíamos poder usar RStudio, el cual se ve de esta forma:
 ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/d3af257a-67fb-4acb-a546-adb515147bf2)
 
- 
-
 
 
 ### Neo4j
@@ -38,7 +36,9 @@ Para crear las conexiones en nuestro volumen de datos y las consultas correspond
 Para instalarlo se pueden seguir los siguientes pasos: 
 
 1) Dirigirse a esta [esta página web](https://neo4j.com/download/)
-2) Posteriormente seleccionar Download: 
+2) Posteriormente seleccionar Download
+3) Se deberá llenar un formulario con datos relacionados al usuario, tales como nombre, institución, correo y país. Se aceptan términos y condiciones y se procede con la descarga.
+   
 
 ### GraphDB
 
