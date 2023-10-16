@@ -1,5 +1,5 @@
 
-n<-25000 ### Se establece un número de personas falsas que se quieren generar automáticamente.
+n<-10000 ### Se establece un número de personas falsas que se quieren generar automáticamente.
 nombre = sample(c("Alice", "Bob", "Carol","Carlos","Isaac","Nahomy","Fabricio","Daniel","Luffy","Francisco","Yarlin","Miriam","Steyfell"), n, replace = TRUE) ### Se establecen una lista de posibles nombres y se escoge una muestra de tamaño n de esta lista, de esa forma se generan aleatoriamente los nombres 
 apellido1= sample(c("Jimenez", "Vargas", "Messi","Martinez","Cordero","Segura","Vilchez","Sibaja","D","Calderon","Vargas","Calvo","Smith"), n, replace = TRUE) ### Se establece una lista de apellidos y de forma similar, se escogen.
 apellido2= sample(c("Barboza", "Vargas", "Messi","Rodriguez","Alvarado","Badilla","Monge","Salazar","Monkey","Fonseca","Valverde","Alfaro","Morgan"), n, replace = TRUE) ### Acá igual pero para el segundo apellido, cabe aclarar que un nombre, un primer apellido y un segundo apellido pueden salir más de una vez gracias al parámetro "replace=TRUE"
