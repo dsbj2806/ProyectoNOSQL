@@ -32,12 +32,13 @@ Para generar los datos se utilizó RStudio, por lo cual es necesario explicar co
 
 
 ### Neo4j
-Para crear las conexiones en nuestro volumen de datos y las consultas correspondientes, uno de los software que se utilizó fue Neo4j.
+Para crear las conexiones en el volumen de datos y las consultas correspondientes, se utilizó Neo4j, un software libre de base de datos orientada a grafos, implementado en Java.
 Para instalarlo se pueden seguir los siguientes pasos: 
 
 1) Dirigirse a esta [esta página web](https://neo4j.com/download/)
-2) Posteriormente seleccionar.
-3) Se deberá llenar el siguiente formulario con los datos del usuario: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/49732161/f5cb58b2-6428-4da8-afcd-646605ef3145)
+2) Posteriormente seleccionar la opción Download.
+3) Se deberá completar el siguiente formulario con los datos del usuario: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/49732161/f5cb58b2-6428-4da8-afcd-646605ef3145) Una vez lleno dicho formulario se aceptan los términos y condiciones y se selecciona la opción Download Desktop.
+   
 
    
 
