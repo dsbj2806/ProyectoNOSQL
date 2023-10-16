@@ -36,8 +36,9 @@ Para crear las conexiones en nuestro volumen de datos y las consultas correspond
 Para instalarlo se pueden seguir los siguientes pasos: 
 
 1) Dirigirse a esta [esta página web](https://neo4j.com/download/)
-2) Posteriormente seleccionar Download
-3) Se deberá llenar un formulario con datos relacionados al usuario, tales como nombre, institución, correo y país. Se aceptan términos y condiciones y se procede con la descarga.
+2) Posteriormente seleccionar.
+3) Se deberá llenar el siguiente formulario con los datos del usuario: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/49732161/f5cb58b2-6428-4da8-afcd-646605ef3145)
+
    
 
 ### GraphDB
@@ -132,7 +133,7 @@ Las consultas realizadas fueron las siguientes:
 1. Se obtiene la lista limitada a las primeras 100 personas que recorrieron más kilómetros en sus viajes, tomando como punto de referencia el lugar de dónde esta parte (lugar de residencia) hasta donde la misma viaja.
 2. ¿Cuál fue el año en que el usuario viajó más? Al tener datos simulados, solo era de interés comparar si viajó más (recorrió más kilómetros) en 2021 o en 2022.
 3. Comparación de viajes de las personas en función de sus conexiones mutuas, es decir identificar las personas que viajaron a los mismos lugares. En este caso, la coordenada geográfica del viaje correspondiente debe coincidir. 
-4. Medio de transporte más utilizados por la persona. 
+4. Medio de transporte más utilizado por la persona. 
 
 
 ### Cargar los datos de CSV a GraphDB
