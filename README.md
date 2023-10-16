@@ -105,7 +105,7 @@ Asimismo, se deben crear nodos para representar viajes y establecer relaciones e
 Finalmente, se crean relaciones entre personas para representar a quién sigue cada persona. Se verifican las columnas `ID sigue1` e `ID sigue2` para determinar si una persona sigue a otra. Si es así, se usa `MATCH` y `MERGE` para crear relaciones "SIGUE" entre las personas correspondientes.
 
 
-### Realizar consultas para verificar la exportación de datos en neo4j
+### Verificación de la exportación de datos en Neo4j
 Ahora, para verificar que funcionen los nodos y relaciones, usaremos el archivo llamado “Consultas.cypher”, y realizaremos las siguientes consultas:
 
 1- Que muestra todos los nodos en la base de datos.
@@ -129,9 +129,10 @@ Y de este modo verificar que funcione tanto la carga de datos como los nodos y r
 
 ### Consultas en Neo4j
 Las consultas realizadas fueron las siguientes:
-1. Personas que más realizaron viajes
-2. A partir de las coordenadas, se devuelve cuántos kilómetros recorrió una persona
-3. Comparación de viajes de las personas en función de sus conexiones mutuas 
+1. Se obtiene la lista limitada a las primeras 100 personas que recorrieron más kilómetros en sus viajes, tomando como punto de referencia el lugar de dónde esta parte (lugar de residencia) hasta donde la misma viaja.
+2. ¿Cuál fue el año en que el usuario viajó más? Al tener datos simulados, solo era de interés comparar si viajó más (recorrió más kilómetros) en 2021 o en 2022.
+3. Comparación de viajes de las personas en función de sus conexiones mutuas, es decir identificar las personas que viajaron a los mismos lugares. En este caso, la coordenada geográfica del viaje correspondiente debe coincidir. 
+4. Medio de transporte más utilizados por la persona. 
 
 
 ### Cargar los datos de CSV a GraphDB
