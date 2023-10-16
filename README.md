@@ -4,7 +4,7 @@ En este proyecto se genera una base de datos de grafos capaz de manejar distanci
 Se utilizan los lenguajes:
 * R
 * Cypher de la base de datos Neo4j
-* GraphQL de la base de datos GraphDB
+* SparQL de la base de datos GraphDB
 
 ## Instalación de programas
 
