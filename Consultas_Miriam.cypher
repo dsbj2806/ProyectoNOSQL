@@ -34,7 +34,12 @@ ORDER BY distancia1 DESC, distancia2 DESC
 LIMIT 10;
 
 \\ Cod 3
-
+MATCH (p:Persona)
+WITH p, distance(p.`Coord. Vive en`, p.`Coord. Viaje1`) / 1000 AS distancia1, distance(p.`Coord. Vive en`, p.`Coord. Viaje2`) / 1000 AS distancia2
+WITH p, distancia1 + distancia2 AS distanciaTotal
+RETURN p.ID, p.Nombre, p.`Vive en`, distancia1, distancia2, distanciaTotal
+ORDER BY distanciaTotal DESC
+LIMIT 100;
 
 \\Personas que se siguen mutuamente
 MATCH (p1:Persona)-[:SIGUE]->(p2:Persona)
