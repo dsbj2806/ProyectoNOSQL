@@ -39,7 +39,8 @@ Para instalarlo se pueden seguir los siguientes pasos:
 2) Posteriormente seleccionar la opción Download.
 3) Se deberá completar el siguiente formulario con los datos del usuario: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/49732161/f5cb58b2-6428-4da8-afcd-646605ef3145) Una vez lleno dicho formulario se aceptan los términos y condiciones y se selecciona la opción Download Desktop.
    
-
+Seguidamente, localice el archivo recién descargado y haga doble clic en él para iniciar la instalación. A continuación, siga los pasos que aparecen en pantalla para completar la instalación.
+Una vez iniciado Neo4j Desktop, se debe proporcionar una clave de activación para activar la copia de Desktop. Copia y pega la clave, que se encuentra en la parte superior de la página de descarga, en la casilla de la aplicación Desktop. Alternativamente, se puede generar una nueva clave desde la aplicación Desktop rellenando el formulario que aparece a la derecha de la pantalla.
    
 
 ### GraphDB
