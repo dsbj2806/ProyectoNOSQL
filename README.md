@@ -127,6 +127,11 @@ Ahora, para verificar que funcionen los nodos y relaciones, usaremos el archivo 
 
 Y de este modo verificar que funcione tanto la carga de datos como los nodos y relaciones entre nuestras variables.
 
+### Consultas en Neo4j
+Las consultas realizadas fueron las siguientes:
+1. Personas que más realizaron viajes
+2. A partir de las coordenadas, se devuelve cuántos kilómetros recorrió una persona
+3. Comparación de viajes de las personas en función de sus conexiones mutuas 
 
 
 ### Cargar los datos de CSV a GraphDB
