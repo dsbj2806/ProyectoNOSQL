@@ -4,7 +4,7 @@ En este proyecto se genera una base de datos de grafos capaz de manejar distanci
 Se utilizan los lenguajes:
 * R
 * Cypher de la base de datos Neo4j
-* DO de las bases de datos de InfiniteGraph.
+* GraphQL de la base de datos GraphDB
 
 ## Instalación de programas
 
@@ -29,11 +29,18 @@ Para generar los datos se utilizó RStudio, por lo cual es necesario explicar co
     * Una vez realizado todo el proceso deberíamos poder usar RStudio, el cual se ve de esta forma:
 ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/d3af257a-67fb-4acb-a546-adb515147bf2)
 
- 
-
 
 
 ### Neo4j
+Para crear las conexiones en el volumen de datos y las consultas correspondientes, se utilizó Neo4j, un software libre de base de datos orientada a grafos, implementado en Java.
+Para instalarlo se pueden seguir los siguientes pasos: 
+
+1) Dirigirse a esta [esta página web](https://neo4j.com/download/)
+2) Posteriormente seleccionar la opción Download.
+3) Se deberá completar el siguiente formulario con los datos del usuario: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/49732161/f5cb58b2-6428-4da8-afcd-646605ef3145) Una vez lleno dicho formulario se aceptan los términos y condiciones y se selecciona la opción Download Desktop.
+   
+
+   
 
 ### GraphDB
 
@@ -50,6 +57,19 @@ Instalar GraphDB tampoco debería suponer un problema. Para hacerlo podemos segu
 5) Una vez descargado el instalador,aceptamos los terminos y condiciones y le damos siguiente.
 6) Una vez instalado se puede ver algo así: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/144052489/c359cd61-4fa0-4484-97a7-8a8016eb2087)
 
+### OntoRefine
+
+Para descaragar OntoRefine debemos dirigirnos a la siguiente dirección: https://www.ontotext.com/products/ontotext-refine/
+<img width="652" alt="image" src="https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/8cb1acff-a140-4dda-8750-222ba14918ae">
+
+Seleccionamos el sistema operativo correspondiente:
+
+<img width="605" alt="image" src="https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/425f9564-92da-42c2-a7fb-79cc211811b3">
+
+Una vez descargado el instalador,aceptamos los terminos y condiciones y le damos siguiente.
+
+Instalado se puede ver de la siguiente forma:
+<img width="910" alt="image" src="https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/5aa3be6c-6d1d-4d7e-8109-d2ecc3f122b2">
 
  
 
@@ -87,7 +107,7 @@ Asimismo, se deben crear nodos para representar viajes y establecer relaciones e
 Finalmente, se crean relaciones entre personas para representar a quién sigue cada persona. Se verifican las columnas `ID sigue1` e `ID sigue2` para determinar si una persona sigue a otra. Si es así, se usa `MATCH` y `MERGE` para crear relaciones "SIGUE" entre las personas correspondientes.
 
 
-### Realizar consultas para verificar la exportación de datos en neo4j
+### Verificación de la exportación de datos en Neo4j
 Ahora, para verificar que funcionen los nodos y relaciones, usaremos el archivo llamado “Consultas.cypher”, y realizaremos las siguientes consultas:
 
 1- Que muestra todos los nodos en la base de datos.
@@ -109,6 +129,12 @@ Ahora, para verificar que funcionen los nodos y relaciones, usaremos el archivo 
 
 Y de este modo verificar que funcione tanto la carga de datos como los nodos y relaciones entre nuestras variables.
 
+### Consultas en Neo4j
+Las consultas realizadas fueron las siguientes:
+1. Se obtiene la lista limitada a las primeras 100 personas que recorrieron más kilómetros en sus viajes, tomando como punto de referencia el lugar de dónde esta parte (lugar de residencia) hasta donde la misma viaja.
+2. ¿Cuál fue el año en que el usuario viajó más? Al tener datos simulados, solo era de interés comparar si viajó más (recorrió más kilómetros) en 2021 o en 2022.
+3. Comparación de viajes de las personas en función de sus conexiones mutuas, es decir identificar las personas que viajaron a los mismos lugares. En este caso, se determina a partir de las personas que sigue por medio de los ID's
+4. Medio de transporte más utilizado por la persona. 
 
 
 ### Cargar los datos de CSV a GraphDB
@@ -142,4 +168,13 @@ En la ventana "Map", podemos definir el mapeo entre los campos del archivo CSV y
 Paso 5: Generar el modelo RDF
 Una vez que se haya definido el mapeo, vamos a generar el modelo RDF. Para ello, hacemos clic en el botón "Generate".
 OntoRefine generará el modelo RDF y lo almacenará en el proyecto.
+
+Visual RDF Mapper:
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/1e05c346-8ee1-4bca-a2d1-43ff85c25496)
+
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/484e03ec-8f5c-4402-90e5-c1a0c482c3e9)
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/8dc60b26-389e-4b86-8b37-feffa2ef3b80)
+
+
+
 
