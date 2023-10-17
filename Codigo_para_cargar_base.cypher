@@ -21,10 +21,12 @@ MERGE (v1)-[:UTILIZA]->(t1) // Crea relación entre Viaje1 y Transporte1
 WITH row
 WHERE row.`Coord. Viaje2` IS NOT NULL
 MERGE (p:Persona {ID: row.ID})
-MERGE (v2:Viaje {Coordenadas: row.`Coord. Viaje2`, Fecha: row.`Fecha Viaje 2`})
+MERGE (v2:Viajedos {Coordenadas: row.`Coord. Viaje2`, Fecha: row.`Fecha Viaje 2`})
 MERGE (t2:Transporte {Nombre: row.`Transporte2`}) // Crea nodos de transporte
-MERGE (p)-[:REALIZA]->(v2)
+MERGE (v2)-[:DESTINO]->(u2)
+MERGE (p)-[:REALIZADOS]->(v2)
 MERGE (v2)-[:UTILIZA]->(t2) // Crea relación entre Viaje2 y Transporte2
+
 
 // Agregar relaciones sigue1 y sigue2
 WITH row
@@ -33,8 +35,42 @@ MATCH (p1:Persona {ID: row.ID})
 MATCH (p2:Persona {ID: row.`ID sigue1`})
 MERGE (p1)-[:SIGUE]->(p2)
 
+
 WITH row
 WHERE row.`ID sigue2` IS NOT NULL
 MATCH (p1:Persona {ID: row.ID})
 MATCH (p2:Persona {ID: row.`ID sigue2`})
 MERGE (p1)-[:SIGUE]->(p2)
+
+
+// Supongamos que tienes nodos Viaje con un atributo 'coordenadas' en formato 'latitud, longitud'
+MATCH (v:Viaje)
+
+// Divide la cadena 'coordenadas' en latitud y longitud
+WITH v, split(v.Coordenadas, ',') AS coords
+
+
+// Convierte las coordenadas en un objeto Point
+WITH v, toFloat(coords[0]) AS latitud, toFloat(coords[1]) AS longitud
+SET v.Coordenadas = point({ longitude: longitud, latitude: latitud })
+
+
+// Elimina el atributo 'coordenadas' si ya no lo necesitas
+REMOVE v.Coordenadas
+
+
+// Supongamos que tienes nodos Viaje con un atributo 'coordenadas' en formato 'latitud, longitud'
+MATCH (v:Viajedos)
+
+
+// Divide la cadena 'coordenadas' en latitud y longitud
+WITH v, split(v.Coordenadas, ',') AS coords
+
+
+// Convierte las coordenadas en un objeto Point
+WITH v, toFloat(coords[0]) AS latitud, toFloat(coords[1]) AS longitud
+SET v.Coordenadas = point({ longitude: longitud, latitude: latitud })
+
+
+// Elimina el atributo 'coordenadas' si ya no lo necesitas
+REMOVE v.Coordenadas
