@@ -105,7 +105,14 @@ Luego, se crea un nodo para las ubicaciones únicas. La línea `WITH DISTINCT ro
 
 Asimismo, se deben crear nodos para representar viajes y establecer relaciones entre personas, viajes y ubicaciones. Se realiza en dos partes, una para cada posible viaje, primero se verifica si la columna `Coord. Viaje1` no es nula con la condición `WHERE row.CoordViaje1 IS NOT NULL`. Si esa condición es verdadera, se crean nodos de tipo "Persona" y "Ubicación" si aún no existen y se establecen relaciones entre ellos y el nodo de tipo "Viaje" y “Transporte” para representar el primer viaje y transporte. Las relaciones incluyen "REALIZA" entre personas y viajes, así como "DESTINO" entre viajes y ubicaciones y finalmente “UTILIZA” entre viaje y transporte. Del mismo modo, se crea una para cada una pero para el segundo viajes y transporte.
 
-Finalmente, se crean relaciones entre personas para representar a quién sigue cada persona. Se verifican las columnas `ID sigue1` e `ID sigue2` para determinar si una persona sigue a otra. Si es así, se usa `MATCH` y `MERGE` para crear relaciones "SIGUE" entre las personas correspondientes.
+También, se crean relaciones entre personas para representar a quién sigue cada persona. Se verifican las columnas `ID sigue1` e `ID sigue2` para determinar si una persona sigue a otra. Si es así, se usa `MATCH` y `MERGE` para crear relaciones "SIGUE" entre las personas correspondientes.
+
+Otra parte importante es que para cada nodo 'Viaje' y 'Viajedos, se deben dividir la cadena de texto 'coordenadas' en dos partes: la latitud y la longitud, utilizando la función split. Tambien, se convierte estas partes de texto en números con decimales para latitud y longitud, se construye un objeto Point que representa la ubicación geoespacial utilizando las coordenadas de latitud y longitud, a este se le asigna al atributo 'Coordenadas' del nodo 'Viaje' o 'Viajedos' para que contenga la información de ubicación en formato geoespacial.
+
+Finalmente, se elimina el atributo 'coordenadas' original, esto porque la información de ubicación se ha convertido en un objeto Point y se ha almacenado en el atributo 'Coordenadas', el atributo 'coordenadas' original se elimina para mantener la base de datos ordenada y eficiente.
+
+
+
 
 
 ### Verificación de la exportación de datos en Neo4j
@@ -127,6 +134,7 @@ Ahora, para verificar que funcionen los nodos y relaciones, usaremos el archivo 
 
 8-Consulta para la relación entre Viaje2 y Transporte2.
 
+9-Constulta para verificar las coordenas de los viajes de las personas.
 
 Y de este modo verificar que funcione tanto la carga de datos como los nodos y relaciones entre nuestras variables.
 
