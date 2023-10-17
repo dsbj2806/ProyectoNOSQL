@@ -20,6 +20,7 @@ MERGE (v1)-[:UTILIZA]->(t1) // Crea relación entre Viaje1 y Transporte1
 
 WITH row
 WHERE row.`Coord. Viaje2` IS NOT NULL
+MERGE (p:Persona {ID: row.ID})
 MERGE (v2:Viaje {Coordenadas: row.`Coord. Viaje2`, Fecha: row.`Fecha Viaje 2`})
 MERGE (t2:Transporte {Nombre: row.`Transporte2`}) // Crea nodos de transporte
 MERGE (p)-[:REALIZA]->(v2)
