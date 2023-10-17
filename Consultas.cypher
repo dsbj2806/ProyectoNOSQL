@@ -38,3 +38,11 @@ RETURN v1, t1;
 MATCH (v2:Viaje)-[:UTILIZA]->(t2:Transporte)
 WHERE EXISTS(v2.Coordenadas) AND EXISTS(t2.Nombre)
 RETURN v2, t2;
+
+
+//Consulta sobre personas y coordenadas de los viajes
+MATCH (p:Persona)-[:REALIZA]->(v1:Viaje)                           
+MATCH (p:Persona)-[:REALIZADOS]->(v2:Viajedos)                                                          
+RETURN p.Nombre AS Persona, v2.Coordenadas AS Coord2, v1.Coordenadas AS COORD2 
+
+
