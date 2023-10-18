@@ -4,7 +4,7 @@ En este proyecto se genera una base de datos de grafos capaz de manejar distanci
 Se utilizan los lenguajes:
 * R
 * Cypher de la base de datos Neo4j
-* GraphQL de la base de datos GraphDB
+* SparQL de la base de datos GraphDB
 
 ## Instalación de programas
 
@@ -39,7 +39,8 @@ Para instalarlo se pueden seguir los siguientes pasos:
 2) Posteriormente seleccionar la opción Download.
 3) Se deberá completar el siguiente formulario con los datos del usuario: ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/49732161/f5cb58b2-6428-4da8-afcd-646605ef3145) Una vez lleno dicho formulario se aceptan los términos y condiciones y se selecciona la opción Download Desktop.
    
-
+Seguidamente, localice el archivo recién descargado y haga doble clic en él para iniciar la instalación. A continuación, siga los pasos que aparecen en pantalla para completar la instalación.
+Una vez iniciado Neo4j Desktop, se debe proporcionar una clave de activación para activar la copia de Desktop. Copia y pega la clave, que se encuentra en la parte superior de la página de descarga, en la casilla de la aplicación Desktop. Alternativamente, se puede generar una nueva clave desde la aplicación Desktop rellenando el formulario que aparece a la derecha de la pantalla.
    
 
 ### GraphDB
@@ -104,7 +105,14 @@ Luego, se crea un nodo para las ubicaciones únicas. La línea `WITH DISTINCT ro
 
 Asimismo, se deben crear nodos para representar viajes y establecer relaciones entre personas, viajes y ubicaciones. Se realiza en dos partes, una para cada posible viaje, primero se verifica si la columna `Coord. Viaje1` no es nula con la condición `WHERE row.CoordViaje1 IS NOT NULL`. Si esa condición es verdadera, se crean nodos de tipo "Persona" y "Ubicación" si aún no existen y se establecen relaciones entre ellos y el nodo de tipo "Viaje" y “Transporte” para representar el primer viaje y transporte. Las relaciones incluyen "REALIZA" entre personas y viajes, así como "DESTINO" entre viajes y ubicaciones y finalmente “UTILIZA” entre viaje y transporte. Del mismo modo, se crea una para cada una pero para el segundo viajes y transporte.
 
-Finalmente, se crean relaciones entre personas para representar a quién sigue cada persona. Se verifican las columnas `ID sigue1` e `ID sigue2` para determinar si una persona sigue a otra. Si es así, se usa `MATCH` y `MERGE` para crear relaciones "SIGUE" entre las personas correspondientes.
+También, se crean relaciones entre personas para representar a quién sigue cada persona. Se verifican las columnas `ID sigue1` e `ID sigue2` para determinar si una persona sigue a otra. Si es así, se usa `MATCH` y `MERGE` para crear relaciones "SIGUE" entre las personas correspondientes.
+
+Otra parte importante es que para cada nodo 'Viaje' y 'Viajedos, se deben dividir la cadena de texto 'coordenadas' en dos partes: la latitud y la longitud, utilizando la función split. Tambien, se convierte estas partes de texto en números con decimales para latitud y longitud, se construye un objeto Point que representa la ubicación geoespacial utilizando las coordenadas de latitud y longitud, a este se le asigna al atributo 'Coordenadas' del nodo 'Viaje' o 'Viajedos' para que contenga la información de ubicación en formato geoespacial.
+
+Finalmente, se elimina el atributo 'coordenadas' original, esto porque la información de ubicación se ha convertido en un objeto Point y se ha almacenado en el atributo 'Coordenadas', el atributo 'coordenadas' original se elimina para mantener la base de datos ordenada y eficiente.
+
+
+
 
 
 ### Verificación de la exportación de datos en Neo4j
@@ -126,6 +134,7 @@ Ahora, para verificar que funcionen los nodos y relaciones, usaremos el archivo 
 
 8-Consulta para la relación entre Viaje2 y Transporte2.
 
+9-Constulta para verificar las coordenas de los viajes de las personas.
 
 Y de este modo verificar que funcione tanto la carga de datos como los nodos y relaciones entre nuestras variables.
 
@@ -170,9 +179,10 @@ Una vez que se haya definido el mapeo, vamos a generar el modelo RDF. Para ello,
 OntoRefine generará el modelo RDF y lo almacenará en el proyecto.
 
 Visual RDF Mapper:
-![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/1e05c346-8ee1-4bca-a2d1-43ff85c25496)
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/3c0bea0a-dd96-4196-b605-4c5b14d28cf0)
 
-![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/484e03ec-8f5c-4402-90e5-c1a0c482c3e9)
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/2f5c6f3e-0928-4b71-9fba-34c84b1f26f4)
+
 ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/8dc60b26-389e-4b86-8b37-feffa2ef3b80)
 
 
