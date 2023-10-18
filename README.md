@@ -140,10 +140,9 @@ Y de este modo verificar que funcione tanto la carga de datos como los nodos y r
 
 ### Consultas en Neo4j
 Las consultas realizadas fueron las siguientes:
-1. Se obtiene la lista limitada a las primeras 100 personas que recorrieron más kilómetros en sus viajes, tomando como punto de referencia el lugar de dónde esta parte (lugar de residencia) hasta donde la misma viaja.
-2. ¿Cuál fue el año en que el usuario viajó más? Al tener datos simulados, solo era de interés comparar si viajó más (recorrió más kilómetros) en 2021 o en 2022.
-3. Comparación de viajes de las personas en función de sus conexiones mutuas, es decir identificar las personas que viajaron a los mismos lugares. En este caso, se determina a partir de las personas que sigue por medio de los ID's
-4. Medio de transporte más utilizado por la persona. 
+1) Se calcula el promedio de la edad de las personas que utilizan diferentes medios de transporte.
+2) Se obtiene la distancia recorrida en kilómetros entre la ubicación (residencia) de una persona y los dos lugares que visitó. Además, se obtiene la suma de la distancia recorrida para cada viaje y se obtuvo una medida de cuántos kilómetros se desplazó esa persona.
+3) S calculó la diferencia en la distancia total recorrida por las personas y las personas a las que siguen. 
 
 
 ### Cargar los datos de CSV a GraphDB
