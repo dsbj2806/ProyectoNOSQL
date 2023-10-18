@@ -181,6 +181,8 @@ OntoRefine generará el modelo RDF y lo almacenará en el proyecto.
 Visual RDF Mapper:
 ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/3c0bea0a-dd96-4196-b605-4c5b14d28cf0)
 
+Para realizar el mapeo se debio dividir las columnas de la longitud y latitud con la opcion "split into a several columns", esto para poder transformar las respectivas variables (vive en y las coordenadas de viaje) a tipo numerico.
+
 ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/2f5c6f3e-0928-4b71-9fba-34c84b1f26f4)
 
 ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/8dc60b26-389e-4b86-8b37-feffa2ef3b80)
