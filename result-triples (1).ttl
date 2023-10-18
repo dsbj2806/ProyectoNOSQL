@@ -1,0 +1,1486 @@
+@base <http://example.com/base/> .
+
+<Fabricio%20Calderon%20Badilla> <ID> "1";
+  <Tiene> "36";
+  <latitud> "60.1581074064597";
+  <longitud> "1.00746762938797";
+  <Sigue%20a> "70";
+  <también%20sigue%20a> "98";
+  <coordenada%20de%20viaje%2011> "-43.6984328879043";
+  <coordenada%20de%20viaje%2012> "-101.122068939731";
+  <Fecha%20viaje%201> "2021-03-03T00:00:00Z";
+  <Transporte%20viaje%201> "Otro";
+  <coordenada%20de%20viaje%2021> "85.4139991337433";
+  <coordenada%20de%20viaje%2022> "-85.2692541852593";
+  <Fecha%20viaje%202> "2022-07-27T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Isaac%20Cordero%20Fonseca> <ID> "2";
+  <Tiene> "26";
+  <latitud> "-84.6882196515799";
+  <longitud> "-113.847468467429";
+  <Sigue%20a> "60";
+  <también%20sigue%20a> "74";
+  <coordenada%20de%20viaje%2011> "-14.6911846473813";
+  <coordenada%20de%20viaje%2012> "-168.306664712727";
+  <Fecha%20viaje%201> "2021-07-18T00:00:00Z";
+  <Transporte%20viaje%201> "Otro";
+  <coordenada%20de%20viaje%2021> "-26.1406018165872";
+  <coordenada%20de%20viaje%2022> "111.561316447333";
+  <Fecha%20viaje%202> "2022-06-26T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Isaac%20Cordero%20Barboza> <ID> "3";
+  <Tiene> "18";
+  <latitud> "-38.243357911706";
+  <longitud> "-7.24567039869726";
+  <Sigue%20a> "54";
+  <también%20sigue%20a> "13";
+  <coordenada%20de%20viaje%2011> "12.2406973270699";
+  <coordenada%20de%20viaje%2012> "66.3646613247693";
+  <Fecha%20viaje%201> "2021-06-26T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "-7.58292054757476";
+  <coordenada%20de%20viaje%2022> "140.417208010331";
+  <Fecha%20viaje%202> "2022-09-16T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Steyfell%20Vargas%20Alvarado> <ID> "4";
+  <Tiene> "37";
+  <latitud> "70.8073720056564";
+  <longitud> "-177.184188812971";
+  <Sigue%20a> "100";
+  <también%20sigue%20a> "21";
+  <coordenada%20de%20viaje%2011> "19.8546431120485";
+  <coordenada%20de%20viaje%2012> "-91.1339920386672";
+  <Fecha%20viaje%201> "2021-02-21T00:00:00Z";
+  <Transporte%20viaje%201> "Avion";
+  <coordenada%20de%20viaje%2021> "-64.0335596725345";
+  <coordenada%20de%20viaje%2022> "-179.041308760643";
+  <Fecha%20viaje%202> "2022-08-16T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Nahomy%20Messi%20Alfaro> <ID> "5";
+  <Tiene> "26";
+  <latitud> "-11.5204953728244";
+  <longitud> "179.221092453226";
+  <Sigue%20a> "55";
+  <también%20sigue%20a> "45";
+  <coordenada%20de%20viaje%2011> "-33.2492326246575";
+  <coordenada%20de%20viaje%2012> "28.7579586636275";
+  <Fecha%20viaje%201> "2021-08-14T00:00:00Z";
+  <Transporte%20viaje%201> "Barco";
+  <coordenada%20de%20viaje%2021> "-64.6359199471772";
+  <coordenada%20de%20viaje%2022> "-20.704859867692";
+  <Fecha%20viaje%202> "2022-04-04T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Francisco%20Sibaja%20Valverde> <ID> "6";
+  <Tiene> "29";
+  <latitud> "-48.7600417993963";
+  <longitud> "98.1806593760848";
+  <Sigue%20a> "11";
+  <también%20sigue%20a> "65";
+  <coordenada%20de%20viaje%2011> "45.6510723335668";
+  <coordenada%20de%20viaje%2012> "-130.114074815065";
+  <Fecha%20viaje%201> "2021-05-31T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "-88.0510054249316";
+  <coordenada%20de%20viaje%2022> "-82.3198408260942";
+  <Fecha%20viaje%202> "2022-09-25T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Alice%20Messi%20Messi> <ID> "7";
+  <Tiene> "22";
+  <latitud> "32.9234026093036";
+  <longitud> "12.2318428941071";
+  <Sigue%20a> "32";
+  <también%20sigue%20a> "88";
+  <coordenada%20de%20viaje%2011> "9.92198442108929";
+  <coordenada%20de%20viaje%2012> "-144.759251447394";
+  <Fecha%20viaje%201> "2021-07-05T00:00:00Z";
+  <Transporte%20viaje%201> "Barco";
+  <coordenada%20de%20viaje%2021> "62.1074298815802";
+  <coordenada%20de%20viaje%2022> "99.0461161918938";
+  <Fecha%20viaje%202> "2022-01-16T00:00:00Z";
+  <Transporte%202> "Avion" .
+
+<Isaac%20Martinez%20Barboza> <ID> "8";
+  <Tiene> "31";
+  <latitud> "81.9731984613463";
+  <longitud> "-4.81487807817757";
+  <Sigue%20a> "64";
+  <también%20sigue%20a> "59";
+  <coordenada%20de%20viaje%2011> "18.7478999700397";
+  <coordenada%20de%20viaje%2012> "-167.152030644938";
+  <Fecha%20viaje%201> "2021-02-20T00:00:00Z";
+  <Transporte%20viaje%201> "Bicicleta";
+  <coordenada%20de%20viaje%2021> "30.9694367274642";
+  <coordenada%20de%20viaje%2022> "-49.0697003994137";
+  <Fecha%20viaje%202> "2022-02-03T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Fabricio%20Vilchez%20Monge> <ID> "9";
+  <Tiene> "15";
+  <latitud> "7.61507998220623";
+  <longitud> "-36.9261486176401";
+  <Sigue%20a> "66";
+  <también%20sigue%20a> "84";
+  <coordenada%20de%20viaje%2011> "-79.7625201148912";
+  <coordenada%20de%20viaje%2012> "-11.4104058220983";
+  <Fecha%20viaje%201> "2021-07-27T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "85.9455437678844";
+  <coordenada%20de%20viaje%2022> "-153.282016189769";
+  <Fecha%20viaje%202> "2022-08-05T00:00:00Z";
+  <Transporte%202> "Otro" .
+
+<Daniel%20Martinez%20Monkey> <ID> "10";
+  <Tiene> "40";
+  <latitud> "-76.0391158657148";
+  <longitud> "-136.165042128414";
+  <Sigue%20a> "49";
+  <también%20sigue%20a> "17";
+  <coordenada%20de%20viaje%2011> "-75.4127242555842";
+  <coordenada%20de%20viaje%2012> "13.9120129030198";
+  <Fecha%20viaje%201> "2021-11-04T00:00:00Z";
+  <Transporte%20viaje%201> "Bicicleta";
+  <coordenada%20de%20viaje%2021> "38.5365393245593";
+  <coordenada%20de%20viaje%2022> "99.9417294189334";
+  <Fecha%20viaje%202> "2022-06-14T00:00:00Z";
+  <Transporte%202> "Autobus" .
+
+<Nahomy%20Cordero%20Morgan> <ID> "11";
+  <Tiene> "23";
+  <latitud> "-50.516201891005";
+  <longitud> "69.1762481164187";
+  <Sigue%20a> "37";
+  <también%20sigue%20a> "6";
+  <coordenada%20de%20viaje%2011> "-22.7682881662622";
+  <coordenada%20de%20viaje%2012> "-94.1919062007219";
+  <Fecha%20viaje%201> "2021-05-08T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "-52.0508809620515";
+  <coordenada%20de%20viaje%2022> "-151.618911651894";
+  <Fecha%20viaje%202> "2022-11-03T00:00:00Z";
+  <Transporte%202> "Bicicleta" .
+
+<Steyfell%20Jimenez%20Monkey> <ID> "12";
+  <Tiene> "31";
+  <latitud> "61.4608559058979";
+  <longitud> "-132.979196151718";
+  <Sigue%20a> "22";
+  <también%20sigue%20a> "86";
+  <coordenada%20de%20viaje%2011> "-80.5142498016357";
+  <coordenada%20de%20viaje%2012> "-2.22025198861957";
+  <Fecha%20viaje%201> "2021-09-11T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "81.3808639068156";
+  <coordenada%20de%20viaje%2022> "-139.021109836176";
+  <Fecha%20viaje%202> "2022-07-29T00:00:00Z";
+  <Transporte%202> "Bicicleta" .
+
+<Carlos%20Vargas%20Messi> <ID> "13";
+  <Tiene> "38";
+  <latitud> "37.265733461827";
+  <longitud> "-37.0418395008892";
+  <Sigue%20a> "68";
+  <también%20sigue%20a> "56";
+  <coordenada%20de%20viaje%2011> "-60.7576259644702";
+  <coordenada%20de%20viaje%2012> "113.204515976831";
+  <Fecha%20viaje%201> "2021-04-29T00:00:00Z";
+  <Transporte%20viaje%201> "Otro";
+  <coordenada%20de%20viaje%2021> "40.4901878675446";
+  <coordenada%20de%20viaje%2022> "38.1061920057982";
+  <Fecha%20viaje%202> "2022-09-09T00:00:00Z";
+  <Transporte%202> "Bicicleta" .
+
+<Bob%20Martinez%20Alvarado> <ID> "14";
+  <Tiene> "41";
+  <latitud> "84.4244468165562";
+  <longitud> "110.904078008607";
+  <Sigue%20a> "97";
+  <también%20sigue%20a> "65";
+  <coordenada%20de%20viaje%2011> "-36.3281516684219";
+  <coordenada%20de%20viaje%2012> "87.2066135890782";
+  <Fecha%20viaje%201> "2021-12-04T00:00:00Z";
+  <Transporte%20viaje%201> "Otro";
+  <coordenada%20de%20viaje%2021> "-52.7989712683484";
+  <coordenada%20de%20viaje%2022> "-4.67580755241215";
+  <Fecha%20viaje%202> "2022-04-06T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Carlos%20Vilchez%20Valverde> <ID> "15";
+  <Tiene> "34";
+  <latitud> "-33.5898096347228";
+  <longitud> "81.0546935442835";
+  <Sigue%20a> "22";
+  <también%20sigue%20a> "40";
+  <coordenada%20de%20viaje%2011> "-4.55753428861499";
+  <coordenada%20de%20viaje%2012> "-116.497972263023";
+  <Fecha%20viaje%201> "2021-11-06T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "-24.094546479173";
+  <coordenada%20de%20viaje%2022> "-143.05511020124";
+  <Fecha%20viaje%202> "2022-04-04T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Bob%20Vargas%20Morgan> <ID> "16";
+  <Tiene> "36";
+  <latitud> "-38.1728069717064";
+  <longitud> "-114.509133892134";
+  <Sigue%20a> "50";
+  <también%20sigue%20a> "15";
+  <coordenada%20de%20viaje%2011> "5.96003606915474";
+  <coordenada%20de%20viaje%2012> "-31.317750653252";
+  <Fecha%20viaje%201> "2021-09-23T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "-27.2638848004863";
+  <coordenada%20de%20viaje%2022> "-30.3631764370948";
+  <Fecha%20viaje%202> "2022-09-23T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Carol%20Calderon%20Rodriguez> <ID> "17";
+  <Tiene> "30";
+  <latitud> "45.8460716111585";
+  <longitud> "157.339045749977";
+  <Sigue%20a> "90";
+  <también%20sigue%20a> "13";
+  <coordenada%20de%20viaje%2011> "62.7108337031677";
+  <coordenada%20de%20viaje%2012> "-130.344379339367";
+  <Fecha%20viaje%201> "2021-02-09T00:00:00Z";
+  <Transporte%20viaje%201> "Bicicleta";
+  <coordenada%20de%20viaje%2021> "64.5797957293689";
+  <coordenada%20de%20viaje%2022> "143.150983164087";
+  <Fecha%20viaje%202> "2022-06-24T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Miriam%20Vargas%20Vargas> <ID> "18";
+  <Tiene> "20";
+  <latitud> "56.9917795713991";
+  <longitud> "-37.2068249434233";
+  <Sigue%20a> "23";
+  <también%20sigue%20a> "76";
+  <coordenada%20de%20viaje%2011> "45.758952498436";
+  <coordenada%20de%20viaje%2012> "160.062631526962";
+  <Fecha%20viaje%201> "2021-03-03T00:00:00Z";
+  <Transporte%20viaje%201> "A pie";
+  <coordenada%20de%20viaje%2021> "16.2426824681461";
+  <coordenada%20de%20viaje%2022> "-12.4822354037315";
+  <Fecha%20viaje%202> "2022-04-06T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Yarlin%20Messi%20Badilla> <ID> "19";
+  <Tiene> "44";
+  <latitud> "-22.0605617109686";
+  <longitud> "-106.2707853131";
+  <Sigue%20a> "21";
+  <también%20sigue%20a> "35";
+  <coordenada%20de%20viaje%2011> "50.4020230611786";
+  <coordenada%20de%20viaje%2012> "101.268776301295";
+  <Fecha%20viaje%201> "2021-12-11T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "-16.6428671730682";
+  <coordenada%20de%20viaje%2022> "-89.0832004230469";
+  <Fecha%20viaje%202> "2022-05-15T00:00:00Z";
+  <Transporte%202> "Otro" .
+
+<Miriam%20Vargas%20Barboza> <ID> "20";
+  <Tiene> "29";
+  <latitud> "-69.9934107530862";
+  <longitud> "-112.382028317079";
+  <Sigue%20a> "33";
+  <también%20sigue%20a> "32";
+  <coordenada%20de%20viaje%2011> "69.6141719631851";
+  <coordenada%20de%20viaje%2012> "86.6032533533871";
+  <Fecha%20viaje%201> "2021-02-25T00:00:00Z";
+  <Transporte%20viaje%201> "Otro";
+  <coordenada%20de%20viaje%2021> "-56.0854935413226";
+  <coordenada%20de%20viaje%2022> "-13.1054733227938";
+  <Fecha%20viaje%202> "2022-06-01T00:00:00Z";
+  <Transporte%202> "Otro" .
+
+<Carol%20Calvo%20Morgan> <ID> "21";
+  <Tiene> "19";
+  <latitud> "-0.250611235387623";
+  <longitud> "159.346676599234";
+  <Sigue%20a> "82";
+  <también%20sigue%20a> "95";
+  <coordenada%20de%20viaje%2011> "-35.1582222618163";
+  <coordenada%20de%20viaje%2012> "53.149516582489";
+  <Fecha%20viaje%201> "2021-02-09T00:00:00Z";
+  <Transporte%20viaje%201> "A pie";
+  <coordenada%20de%20viaje%2021> "-81.9180138129741";
+  <coordenada%20de%20viaje%2022> "-160.425118245184";
+  <Fecha%20viaje%202> "2022-10-30T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Francisco%20D%20Alfaro> <ID> "22";
+  <Tiene> "26";
+  <latitud> "18.1690191244707";
+  <longitud> "82.041553677991";
+  <Sigue%20a> "64";
+  <también%20sigue%20a> "83";
+  <coordenada%20de%20viaje%2011> "-86.543159885332";
+  <coordenada%20de%20viaje%2012> "-89.6780133806169";
+  <Fecha%20viaje%201> "2021-07-27T00:00:00Z";
+  <Transporte%20viaje%201> "Otro";
+  <coordenada%20de%20viaje%2021> "-39.8249599244446";
+  <coordenada%20de%20viaje%2022> "28.2272274512798";
+  <Fecha%20viaje%202> "2022-04-05T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Carol%20Calderon%20Salazar> <ID> "23";
+  <Tiene> "24";
+  <latitud> "-59.292648662813";
+  <longitud> "-70.8200106583536";
+  <Sigue%20a> "87";
+  <también%20sigue%20a> "12";
+  <coordenada%20de%20viaje%2011> "17.6086845807731";
+  <coordenada%20de%20viaje%2012> "-172.38228793256";
+  <Fecha%20viaje%201> "2021-01-31T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "49.5741031318903";
+  <coordenada%20de%20viaje%2022> "106.454585781321";
+  <Fecha%20viaje%202> "2022-06-14T00:00:00Z";
+  <Transporte%202> "Bicicleta" .
+
+<Steyfell%20Calderon%20Valverde> <ID> "24";
+  <Tiene> "22";
+  <latitud> "-87.2638629516587";
+  <longitud> "-78.924956806004";
+  <Sigue%20a> "57";
+  <también%20sigue%20a> "60";
+  <coordenada%20de%20viaje%2011> "43.6607253039256";
+  <coordenada%20de%20viaje%2012> "48.4919716883451";
+  <Fecha%20viaje%201> "2021-06-06T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "-1.31719856522977";
+  <coordenada%20de%20viaje%2022> "-13.2056385744363";
+  <Fecha%20viaje%202> "2022-03-06T00:00:00Z";
+  <Transporte%202> "Avion" .
+
+<Nahomy%20Smith%20Alvarado> <ID> "25";
+  <Tiene> "28";
+  <latitud> "-59.7574058733881";
+  <longitud> "81.8821407761425";
+  <Sigue%20a> "1";
+  <también%20sigue%20a> "92";
+  <coordenada%20de%20viaje%2011> "-62.2802250785753";
+  <coordenada%20de%20viaje%2012> "-84.4507696386427";
+  <Fecha%20viaje%201> "2021-04-11T00:00:00Z";
+  <Transporte%20viaje%201> "A pie";
+  <coordenada%20de%20viaje%2021> "-30.2629129495472";
+  <coordenada%20de%20viaje%2022> "-141.22312489897";
+  <Fecha%20viaje%202> "2022-01-09T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Carlos%20Jimenez%20Morgan> <ID> "26";
+  <Tiene> "35";
+  <latitud> "43.058971837163";
+  <longitud> "32.5194120593369";
+  <Sigue%20a> "35";
+  <también%20sigue%20a> "2";
+  <coordenada%20de%20viaje%2011> "-60.3984860144556";
+  <coordenada%20de%20viaje%2012> "32.8992795757949";
+  <Fecha%20viaje%201> "2021-12-24T00:00:00Z";
+  <Transporte%20viaje%201> "Barco";
+  <coordenada%20de%20viaje%2021> "37.2657861420885";
+  <coordenada%20de%20viaje%2022> "21.6698738280684";
+  <Fecha%20viaje%202> "2022-01-13T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Nahomy%20Vargas%20Alvarado> <ID> "27";
+  <Tiene> "19";
+  <latitud> "-14.8491869587451";
+  <longitud> "145.674763061106";
+  <Sigue%20a> "23";
+  <también%20sigue%20a> "97";
+  <coordenada%20de%20viaje%2011> "-3.44779679551721";
+  <coordenada%20de%20viaje%2012> "-126.867524832487";
+  <Fecha%20viaje%201> "2021-10-03T00:00:00Z";
+  <Transporte%20viaje%201> "A pie";
+  <coordenada%20de%20viaje%2021> "-20.6380102504045";
+  <coordenada%20de%20viaje%2022> "-52.2688744403422";
+  <Fecha%20viaje%202> "2022-10-13T00:00:00Z";
+  <Transporte%202> "Avion" .
+
+<Bob%20Martinez%20Alfaro> <ID> "28";
+  <Tiene> "38";
+  <latitud> "-39.9245247384533";
+  <longitud> "-128.982204068452";
+  <Sigue%20a> "87";
+  <también%20sigue%20a> "80";
+  <coordenada%20de%20viaje%2011> "2.55827373359352";
+  <coordenada%20de%20viaje%2012> "63.8153984304518";
+  <Fecha%20viaje%201> "2021-09-29T00:00:00Z";
+  <Transporte%20viaje%201> "Avion";
+  <coordenada%20de%20viaje%2021> "11.4245611801744";
+  <coordenada%20de%20viaje%2022> "-1.58031966537237";
+  <Fecha%20viaje%202> "2022-09-13T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Alice%20Jimenez%20Monge> <ID> "29";
+  <Tiene> "44";
+  <latitud> "-65.001975260675";
+  <longitud> "100.473177367821";
+  <Sigue%20a> "80";
+  <también%20sigue%20a> "63";
+  <coordenada%20de%20viaje%2011> "12.7712476579472";
+  <coordenada%20de%20viaje%2012> "-72.5423342641443";
+  <Fecha%20viaje%201> "2021-11-27T00:00:00Z";
+  <Transporte%20viaje%201> "Avion";
+  <coordenada%20de%20viaje%2021> "79.5363704580814";
+  <coordenada%20de%20viaje%2022> "58.3393809758127";
+  <Fecha%20viaje%202> "2022-03-20T00:00:00Z";
+  <Transporte%202> "Otro" .
+
+<Isaac%20Smith%20Salazar> <ID> "30";
+  <Tiene> "35";
+  <latitud> "-9.89422007929534";
+  <longitud> "-104.821146056056";
+  <Sigue%20a> "11";
+  <también%20sigue%20a> "63";
+  <coordenada%20de%20viaje%2011> "-25.8148375991732";
+  <coordenada%20de%20viaje%2012> "40.7584295980632";
+  <Fecha%20viaje%201> "2021-06-24T00:00:00Z";
+  <Transporte%20viaje%201> "Otro";
+  <coordenada%20de%20viaje%2021> "13.6267650872469";
+  <coordenada%20de%20viaje%2022> "-150.143217081204";
+  <Fecha%20viaje%202> "2022-05-25T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Bob%20Smith%20Monkey> <ID> "31";
+  <Tiene> "30";
+  <latitud> "-79.4453481445089";
+  <longitud> "-176.760179428384";
+  <Sigue%20a> "40";
+  <también%20sigue%20a> "59";
+  <coordenada%20de%20viaje%2011> "23.9954840764403";
+  <coordenada%20de%20viaje%2012> "10.0709562376142";
+  <Fecha%20viaje%201> "2021-01-29T00:00:00Z";
+  <Transporte%20viaje%201> "Barco";
+  <coordenada%20de%20viaje%2021> "-36.7559373518452";
+  <coordenada%20de%20viaje%2022> "13.2364047691226";
+  <Fecha%20viaje%202> "2022-04-17T00:00:00Z";
+  <Transporte%202> "Avion" .
+
+<Luffy%20Martinez%20Monge> <ID> "32";
+  <Tiene> "47";
+  <latitud> "-25.5329111544415";
+  <longitud> "15.8618494402617";
+  <Sigue%20a> "48";
+  <también%20sigue%20a> "45";
+  <coordenada%20de%20viaje%2011> "24.5921240793541";
+  <coordenada%20de%20viaje%2012> "29.767134860158";
+  <Fecha%20viaje%201> "2021-07-23T00:00:00Z";
+  <Transporte%20viaje%201> "A pie";
+  <coordenada%20de%20viaje%2021> "11.4023452810943";
+  <coordenada%20de%20viaje%2022> "67.4905256833881";
+  <Fecha%20viaje%202> "2022-12-28T00:00:00Z";
+  <Transporte%202> "Avion" .
+
+<Isaac%20Martinez%20Valverde> <ID> "33";
+  <Tiene> "33";
+  <latitud> "3.62271680496633";
+  <longitud> "22.6526758633554";
+  <Sigue%20a> "73";
+  <también%20sigue%20a> "45";
+  <coordenada%20de%20viaje%2011> "24.0172805869952";
+  <coordenada%20de%20viaje%2012> "146.798984734342";
+  <Fecha%20viaje%201> "2021-06-04T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "80.1320330053568";
+  <coordenada%20de%20viaje%2022> "179.809234002605";
+  <Fecha%20viaje%202> "2022-05-28T00:00:00Z";
+  <Transporte%202> "Avion" .
+
+<Isaac%20Messi%20Monge> <ID> "34";
+  <Tiene> "27";
+  <latitud> "30.4294907441363";
+  <longitud> "45.4858952388167";
+  <Sigue%20a> "64";
+  <también%20sigue%20a> "79";
+  <coordenada%20de%20viaje%2011> "-71.3758461736143";
+  <coordenada%20de%20viaje%2012> "-14.9848860315979";
+  <Fecha%20viaje%201> "2021-06-03T00:00:00Z";
+  <Transporte%20viaje%201> "Barco";
+  <coordenada%20de%20viaje%2021> "39.4085863279179";
+  <coordenada%20de%20viaje%2022> "47.992015471682";
+  <Fecha%20viaje%202> "2022-11-17T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Alice%20Segura%20Salazar> <ID> "35";
+  <Tiene> "51";
+  <latitud> "-29.9284204049036";
+  <longitud> "147.96248040162";
+  <Sigue%20a> "10";
+  <también%20sigue%20a> "21";
+  <coordenada%20de%20viaje%2011> "60.9439553786069";
+  <coordenada%20de%20viaje%2012> "21.1465771123767";
+  <Fecha%20viaje%201> "2021-11-07T00:00:00Z";
+  <Transporte%20viaje%201> "Avion";
+  <coordenada%20de%20viaje%2021> "25.9558175643906";
+  <coordenada%20de%20viaje%2022> "29.3182922434062";
+  <Fecha%20viaje%202> "2022-10-10T00:00:00Z";
+  <Transporte%202> "Autobus" .
+
+<Miriam%20Vargas%20Alvarado> <ID> "36";
+  <Tiene> "25";
+  <latitud> "11.9940260471776";
+  <longitud> "-63.729242105037";
+  <Sigue%20a> "61";
+  <también%20sigue%20a> "96";
+  <coordenada%20de%20viaje%2011> "34.7882901923731";
+  <coordenada%20de%20viaje%2012> "-156.352450735867";
+  <Fecha%20viaje%201> "2021-08-19T00:00:00Z";
+  <Transporte%20viaje%201> "Bicicleta";
+  <coordenada%20de%20viaje%2021> "-31.636724229902";
+  <coordenada%20de%20viaje%2022> "-82.5850784406066";
+  <Fecha%20viaje%202> "2022-01-29T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Daniel%20Vargas%20Vargas> <ID> "37";
+  <Tiene> "39";
+  <latitud> "-35.1705574896187";
+  <longitud> "-8.35939985699952";
+  <Sigue%20a> "99";
+  <también%20sigue%20a> "62";
+  <coordenada%20de%20viaje%2011> "19.6537970378995";
+  <coordenada%20de%20viaje%2012> "-7.41340342909098";
+  <Fecha%20viaje%201> "2021-12-15T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "29.4598305691034";
+  <coordenada%20de%20viaje%2022> "-115.117280110717";
+  <Fecha%20viaje%202> "2022-02-11T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Yarlin%20Vargas%20Alfaro> <ID> "38";
+  <Tiene> "14";
+  <latitud> "-31.2649422744289";
+  <longitud> "-108.684870237485";
+  <Sigue%20a> "50";
+  <también%20sigue%20a> "77";
+  <coordenada%20de%20viaje%2011> "51.6493724193424";
+  <coordenada%20de%20viaje%2012> "56.411028765142";
+  <Fecha%20viaje%201> "2021-11-16T00:00:00Z";
+  <Transporte%20viaje%201> "Otro";
+  <coordenada%20de%20viaje%2021> "-77.2262806026265";
+  <coordenada%20de%20viaje%2022> "-119.176039192826";
+  <Fecha%20viaje%202> "2022-12-01T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Yarlin%20Segura%20Monkey> <ID> "39";
+  <Tiene> "29";
+  <latitud> "45.8497708383948";
+  <longitud> "-23.9696500450373";
+  <Sigue%20a> "22";
+  <también%20sigue%20a> "62";
+  <coordenada%20de%20viaje%2011> "70.2935030451044";
+  <coordenada%20de%20viaje%2012> "145.745734646916";
+  <Fecha%20viaje%201> "2021-08-25T00:00:00Z";
+  <Transporte%20viaje%201> "A pie";
+  <coordenada%20de%20viaje%2021> "-6.77743080072105";
+  <coordenada%20de%20viaje%2022> "-132.157872989774";
+  <Fecha%20viaje%202> "2022-01-11T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Bob%20Vilchez%20Alvarado> <ID> "40";
+  <Tiene> "21";
+  <latitud> "27.6751562906429";
+  <longitud> "-168.398608490825";
+  <Sigue%20a> "56";
+  <también%20sigue%20a> "51";
+  <coordenada%20de%20viaje%2011> "-79.4772325269878";
+  <coordenada%20de%20viaje%2012> "94.752114135772";
+  <Fecha%20viaje%201> "2021-04-20T00:00:00Z";
+  <Transporte%20viaje%201> "A pie";
+  <coordenada%20de%20viaje%2021> "-10.258594318293";
+  <coordenada%20de%20viaje%2022> "-33.7623667437583";
+  <Fecha%20viaje%202> "2022-12-23T00:00:00Z";
+  <Transporte%202> "Autobus" .
+
+<Carol%20Vargas%20Barboza> <ID> "41", "70";
+  <Tiene> "31", "27";
+  <latitud> "-80.286048380658", "-33.3459616731852";
+  <longitud> "71.2448771763593", "-104.787207730114";
+  <Sigue%20a> "40", "48";
+  <también%20sigue%20a> "61", "59";
+  <coordenada%20de%20viaje%2011> "-32.951457509771", "-62.1365790814161";
+  <coordenada%20de%20viaje%2012> "119.601533683017", "149.665718413889";
+  <Fecha%20viaje%201> "2021-05-23T00:00:00Z", "2021-03-12T00:00:00Z";
+  <Transporte%20viaje%201> "Tren", "Autobus";
+  <coordenada%20de%20viaje%2021> "-34.7899739909917", "73.3545425254852";
+  <coordenada%20de%20viaje%2022> "158.384750448167", "81.3031032308936";
+  <Fecha%20viaje%202> "2022-01-24T00:00:00Z", "2022-02-15T00:00:00Z";
+  <Transporte%202> "Tren", "A pie" .
+
+<Miriam%20Vargas%20Salazar> <ID> "42";
+  <Tiene> "23";
+  <latitud> "-16.5786130120978";
+  <longitud> "-40.6672603916377";
+  <Sigue%20a> "73";
+  <también%20sigue%20a> "63";
+  <coordenada%20de%20viaje%2011> "-83.7286113901064";
+  <coordenada%20de%20viaje%2012> "175.392990941182";
+  <Fecha%20viaje%201> "2021-02-18T00:00:00Z";
+  <Transporte%20viaje%201> "A pie";
+  <coordenada%20de%20viaje%2021> "7.64162555336952";
+  <coordenada%20de%20viaje%2022> "-65.3866503853351";
+  <Fecha%20viaje%202> "2022-02-20T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Alice%20Calvo%20Alvarado> <ID> "43";
+  <Tiene> "26";
+  <latitud> "11.3193227397278";
+  <longitud> "90.9582549612969";
+  <Sigue%20a> "57";
+  <también%20sigue%20a> "61";
+  <coordenada%20de%20viaje%2011> "81.8607859499753";
+  <coordenada%20de%20viaje%2012> "-97.4510287865996";
+  <Fecha%20viaje%201> "2021-05-15T00:00:00Z";
+  <Transporte%20viaje%201> "Avion";
+  <coordenada%20de%20viaje%2021> "20.5301435803995";
+  <coordenada%20de%20viaje%2022> "-155.521656190977";
+  <Fecha%20viaje%202> "2022-10-06T00:00:00Z";
+  <Transporte%202> "Autobus" .
+
+<Isaac%20Calderon%20Alfaro> <ID> "44";
+  <Tiene> "30";
+  <latitud> "-50.8895680680871";
+  <longitud> "20.0653872080147";
+  <Sigue%20a> "67";
+  <también%20sigue%20a> "56";
+  <coordenada%20de%20viaje%2011> "0.201406697742641";
+  <coordenada%20de%20viaje%2012> "136.757724322379";
+  <Fecha%20viaje%201> "2021-06-26T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "-39.7973890788853";
+  <coordenada%20de%20viaje%2022> "-16.8113262858242";
+  <Fecha%20viaje%202> "2022-06-10T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Carol%20Calderon%20Barboza> <ID> "45";
+  <Tiene> "37";
+  <latitud> "88.1453568628058";
+  <longitud> "167.302749752998";
+  <Sigue%20a> "21";
+  <también%20sigue%20a> "24";
+  <coordenada%20de%20viaje%2011> "33.646356551908";
+  <coordenada%20de%20viaje%2012> "165.567157091573";
+  <Fecha%20viaje%201> "2021-05-24T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "-5.99588178098202";
+  <coordenada%20de%20viaje%2022> "22.1632305532694";
+  <Fecha%20viaje%202> "2022-09-29T00:00:00Z";
+  <Transporte%202> "Bicicleta" .
+
+<Steyfell%20Calderon%20Rodriguez> <ID> "46";
+  <Tiene> "53";
+  <latitud> "20.8590862154961";
+  <longitud> "55.7032451033592";
+  <Sigue%20a> "22";
+  <también%20sigue%20a> "7";
+  <coordenada%20de%20viaje%2011> "13.1560230301693";
+  <coordenada%20de%20viaje%2012> "97.8212965093553";
+  <Fecha%20viaje%201> "2021-08-30T00:00:00Z";
+  <Transporte%20viaje%201> "Bicicleta";
+  <coordenada%20de%20viaje%2021> "8.75533070415258";
+  <coordenada%20de%20viaje%2022> "-143.240093858913";
+  <Fecha%20viaje%202> "2022-04-16T00:00:00Z";
+  <Transporte%202> "Autobus" .
+
+<Isaac%20Jimenez%20Valverde> <ID> "47";
+  <Tiene> "12";
+  <latitud> "-65.9653426380828";
+  <longitud> "-67.8809348680079";
+  <Sigue%20a> "62";
+  <también%20sigue%20a> "73";
+  <coordenada%20de%20viaje%2011> "42.0711467787623";
+  <coordenada%20de%20viaje%2012> "57.0814355928451";
+  <Fecha%20viaje%201> "2021-07-26T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "-48.4965376462787";
+  <coordenada%20de%20viaje%2022> "65.6879254896194";
+  <Fecha%20viaje%202> "2022-03-23T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Isaac%20Vilchez%20Badilla> <ID> "48";
+  <Tiene> "11";
+  <latitud> "-39.8465139046311";
+  <longitud> "6.82896693237126";
+  <Sigue%20a> "57";
+  <también%20sigue%20a> "5";
+  <coordenada%20de%20viaje%2011> "59.168010475114";
+  <coordenada%20de%20viaje%2012> "-23.9290855731815";
+  <Fecha%20viaje%201> "2021-10-21T00:00:00Z";
+  <Transporte%20viaje%201> "Avion";
+  <coordenada%20de%20viaje%2021> "-73.8767036190256";
+  <coordenada%20de%20viaje%2022> "110.314008705318";
+  <Fecha%20viaje%202> "2022-04-21T00:00:00Z";
+  <Transporte%202> "Avion" .
+
+<Miriam%20Calvo%20Rodriguez> <ID> "49";
+  <Tiene> "53";
+  <latitud> "-82.1477251918986";
+  <longitud> "68.0679583456367";
+  <Sigue%20a> "52";
+  <también%20sigue%20a> "70";
+  <coordenada%20de%20viaje%2011> "29.4192583020777";
+  <coordenada%20de%20viaje%2012> "78.6401660554111";
+  <Fecha%20viaje%201> "2021-04-10T00:00:00Z";
+  <Transporte%20viaje%201> "Barco";
+  <coordenada%20de%20viaje%2021> "-84.7520335949957";
+  <coordenada%20de%20viaje%2022> "176.33593082428";
+  <Fecha%20viaje%202> "2022-02-18T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Francisco%20Calderon%20Messi> <ID> "50";
+  <Tiene> "38";
+  <latitud> "7.23882967606187";
+  <longitud> "119.54737091437";
+  <Sigue%20a> "3";
+  <también%20sigue%20a> "79";
+  <coordenada%20de%20viaje%2011> "13.0007069930434";
+  <coordenada%20de%20viaje%2012> "-137.114065345377";
+  <Fecha%20viaje%201> "2021-11-10T00:00:00Z";
+  <Transporte%20viaje%201> "A pie";
+  <coordenada%20de%20viaje%2021> "50.8001933433115";
+  <coordenada%20de%20viaje%2022> "-106.679919585586";
+  <Fecha%20viaje%202> "2022-03-27T00:00:00Z";
+  <Transporte%202> "Bicicleta" .
+
+<Steyfell%20Vargas%20Fonseca> <ID> "51";
+  <Tiene> "36";
+  <latitud> "77.9403933137655";
+  <longitud> "44.4411510229111";
+  <Sigue%20a> "80";
+  <también%20sigue%20a> "39";
+  <coordenada%20de%20viaje%2011> "18.3188319392502";
+  <coordenada%20de%20viaje%2012> "92.5581644754857";
+  <Fecha%20viaje%201> "2021-10-31T00:00:00Z";
+  <Transporte%20viaje%201> "Otro";
+  <coordenada%20de%20viaje%2021> "-40.9282261272892";
+  <coordenada%20de%20viaje%2022> "-119.331868244335";
+  <Fecha%20viaje%202> "2022-05-29T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Steyfell%20D%20Barboza> <ID> "52";
+  <Tiene> "18";
+  <latitud> "-59.0028500603512";
+  <longitud> "-0.382307237014174";
+  <Sigue%20a> "90";
+  <también%20sigue%20a> "98";
+  <coordenada%20de%20viaje%2011> "30.45054549817";
+  <coordenada%20de%20viaje%2012> "-168.640105873346";
+  <Fecha%20viaje%201> "2021-02-24T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "1.35589839890599";
+  <coordenada%20de%20viaje%2022> "10.5529181845486";
+  <Fecha%20viaje%202> "2022-06-11T00:00:00Z";
+  <Transporte%202> "Autobus" .
+
+<Isaac%20Vilchez%20Barboza> <ID> "53";
+  <Tiene> "35";
+  <latitud> "20.1544721284881";
+  <longitud> "149.091818807647";
+  <Sigue%20a> "46";
+  <también%20sigue%20a> "82";
+  <coordenada%20de%20viaje%2011> "47.4908577930182";
+  <coordenada%20de%20viaje%2012> "178.496406599879";
+  <Fecha%20viaje%201> "2021-06-09T00:00:00Z";
+  <Transporte%20viaje%201> "Barco";
+  <coordenada%20de%20viaje%2021> "63.9858828205615";
+  <coordenada%20de%20viaje%2022> "-101.877672867849";
+  <Fecha%20viaje%202> "2022-02-10T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Carol%20Vargas%20Fonseca> <ID> "54";
+  <Tiene> "33";
+  <latitud> "-27.3815738875419";
+  <longitud> "13.9552194345742";
+  <Sigue%20a> "55";
+  <también%20sigue%20a> "30";
+  <coordenada%20de%20viaje%2011> "-88.608501185663";
+  <coordenada%20de%20viaje%2012> "-42.2345492988825";
+  <Fecha%20viaje%201> "2021-05-02T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "53.7602888513356";
+  <coordenada%20de%20viaje%2022> "34.7866845969111";
+  <Fecha%20viaje%202> "2022-01-29T00:00:00Z";
+  <Transporte%202> "Bicicleta" .
+
+<Miriam%20D%20Vargas> <ID> "55";
+  <Tiene> "9";
+  <latitud> "27.9063745681196";
+  <longitud> "-63.0045338720083";
+  <Sigue%20a> "28";
+  <también%20sigue%20a> "22";
+  <coordenada%20de%20viaje%2011> "-57.9158763075247";
+  <coordenada%20de%20viaje%2012> "-152.384175974876";
+  <Fecha%20viaje%201> "2021-11-08T00:00:00Z";
+  <Transporte%20viaje%201> "Avion";
+  <coordenada%20de%20viaje%2021> "-83.7481426075101";
+  <coordenada%20de%20viaje%2022> "-123.76578329131";
+  <Fecha%20viaje%202> "2022-06-22T00:00:00Z";
+  <Transporte%202> "Avion" .
+
+<Isaac%20D%20Monge> <ID> "56";
+  <Tiene> "28";
+  <latitud> "-21.2437586579472";
+  <longitud> "-140.976339709014";
+  <Sigue%20a> "19";
+  <también%20sigue%20a> "24";
+  <coordenada%20de%20viaje%2011> "-5.44392633251846";
+  <coordenada%20de%20viaje%2012> "166.555002937093";
+  <Fecha%20viaje%201> "2021-07-28T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "-47.1274770190939";
+  <coordenada%20de%20viaje%2022> "-160.345826614648";
+  <Fecha%20viaje%202> "2022-10-31T00:00:00Z";
+  <Transporte%202> "Otro" .
+
+<Carlos%20Smith%20Alfaro> <ID> "57";
+  <Tiene> "44";
+  <latitud> "88.1134987575933";
+  <longitud> "-1.96647796779871";
+  <Sigue%20a> "86";
+  <también%20sigue%20a> "74";
+  <coordenada%20de%20viaje%2011> "37.4175078095868";
+  <coordenada%20de%20viaje%2012> "-96.237689293921";
+  <Fecha%20viaje%201> "2021-01-28T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "-36.0698897670954";
+  <coordenada%20de%20viaje%2022> "-86.9276117999107";
+  <Fecha%20viaje%202> "2022-02-03T00:00:00Z";
+  <Transporte%202> "Autobus" .
+
+<Francisco%20Segura%20Monge> <ID> "58";
+  <Tiene> "8";
+  <latitud> "20.9640569798648";
+  <longitud> "-9.94711621664464";
+  <Sigue%20a> "44";
+  <también%20sigue%20a> "93";
+  <coordenada%20de%20viaje%2011> "52.3226836603135";
+  <coordenada%20de%20viaje%2012> "-140.960549041629";
+  <Fecha%20viaje%201> "2021-06-03T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "13.5812275065109";
+  <coordenada%20de%20viaje%2022> "77.5972782634199";
+  <Fecha%20viaje%202> "2022-06-21T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Carlos%20Sibaja%20Salazar> <ID> "59";
+  <Tiene> "39";
+  <latitud> "33.2819083426148";
+  <longitud> "128.512074938044";
+  <Sigue%20a> "19";
+  <también%20sigue%20a> "35";
+  <coordenada%20de%20viaje%2011> "-62.0778382429853";
+  <coordenada%20de%20viaje%2012> "77.8011068701744";
+  <Fecha%20viaje%201> "2021-12-30T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "-87.7378534153104";
+  <coordenada%20de%20viaje%2022> "36.1189491301775";
+  <Fecha%20viaje%202> "2022-11-08T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Fabricio%20Vargas%20Salazar> <ID> "60";
+  <Tiene> "47";
+  <latitud> "40.0853912299499";
+  <longitud> "-139.23598755151";
+  <Sigue%20a> "77";
+  <también%20sigue%20a> "58";
+  <coordenada%20de%20viaje%2011> "51.4959866087884";
+  <coordenada%20de%20viaje%2012> "124.98657588847";
+  <Fecha%20viaje%201> "2021-02-15T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "59.133134088479";
+  <coordenada%20de%20viaje%2022> "68.9985955227166";
+  <Fecha%20viaje%202> "2022-07-27T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Yarlin%20Sibaja%20Badilla> <ID> "61";
+  <Tiene> "31";
+  <latitud> "39.0704284608364";
+  <longitud> "56.1352602113038";
+  <Sigue%20a> "94";
+  <también%20sigue%20a> "47";
+  <coordenada%20de%20viaje%2011> "65.6515908613801";
+  <coordenada%20de%20viaje%2012> "-150.987859871238";
+  <Fecha%20viaje%201> "2021-07-10T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "-34.2200060840696";
+  <coordenada%20de%20viaje%2022> "-136.508654979989";
+  <Fecha%20viaje%202> "2022-05-02T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Francisco%20Vargas%20Alfaro> <ID> "62";
+  <Tiene> "19";
+  <latitud> "1.67698346078396";
+  <longitud> "-44.5092958956957";
+  <Sigue%20a> "27";
+  <también%20sigue%20a> "96";
+  <coordenada%20de%20viaje%2011> "82.3510888544843";
+  <coordenada%20de%20viaje%2012> "97.9204904660583";
+  <Fecha%20viaje%201> "2021-04-17T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "23.9531515678391";
+  <coordenada%20de%20viaje%2022> "-14.7802895586938";
+  <Fecha%20viaje%202> "2022-11-18T00:00:00Z";
+  <Transporte%202> "Avion" .
+
+<Carlos%20Jimenez%20Salazar> <ID> "63";
+  <Tiene> "29";
+  <latitud> "71.8156376341358";
+  <longitud> "43.1574091594666";
+  <Sigue%20a> "19";
+  <también%20sigue%20a> "24";
+  <coordenada%20de%20viaje%2011> "-7.93297459837049";
+  <coordenada%20de%20viaje%2012> "-1.9593446329236";
+  <Fecha%20viaje%201> "2021-11-28T00:00:00Z";
+  <Transporte%20viaje%201> "Otro";
+  <coordenada%20de%20viaje%2021> "4.64939910918474";
+  <coordenada%20de%20viaje%2022> "146.911255801097";
+  <Fecha%20viaje%202> "2022-11-08T00:00:00Z";
+  <Transporte%202> "Otro" .
+
+<Steyfell%20D%20Vargas> <ID> "64";
+  <Tiene> "22";
+  <latitud> "-53.7672424782068";
+  <longitud> "16.004286557436";
+  <Sigue%20a> "37";
+  <también%20sigue%20a> "29";
+  <coordenada%20de%20viaje%2011> "-30.6217031227425";
+  <coordenada%20de%20viaje%2012> "-79.2396322265267";
+  <Fecha%20viaje%201> "2021-02-14T00:00:00Z";
+  <Transporte%20viaje%201> "Bicicleta";
+  <coordenada%20de%20viaje%2021> "17.9768888885155";
+  <coordenada%20de%20viaje%2022> "-173.825694909319";
+  <Fecha%20viaje%202> "2022-12-28T00:00:00Z";
+  <Transporte%202> "Autobus" .
+
+<Steyfell%20Sibaja%20Barboza> <ID> "65";
+  <Tiene> "24";
+  <latitud> "-6.41822949517518";
+  <longitud> "57.1743675973266";
+  <Sigue%20a> "52";
+  <también%20sigue%20a> "4";
+  <coordenada%20de%20viaje%2011> "-13.8231130130589";
+  <coordenada%20de%20viaje%2012> "-146.21486431919";
+  <Fecha%20viaje%201> "2021-08-03T00:00:00Z";
+  <Transporte%20viaje%201> "Avion";
+  <coordenada%20de%20viaje%2021> "-56.4833352528512";
+  <coordenada%20de%20viaje%2022> "162.016643090174";
+  <Fecha%20viaje%202> "2022-12-04T00:00:00Z";
+  <Transporte%202> "Otro" .
+
+<Bob%20Vilchez%20Vargas> <ID> "66";
+  <Tiene> "36";
+  <latitud> "-36.1527063231915";
+  <longitud> "-140.266436347738";
+  <Sigue%20a> "61";
+  <también%20sigue%20a> "58";
+  <coordenada%20de%20viaje%2011> "57.3713688924909";
+  <coordenada%20de%20viaje%2012> "174.838257394731";
+  <Fecha%20viaje%201> "2021-03-12T00:00:00Z";
+  <Transporte%20viaje%201> "Bicicleta";
+  <coordenada%20de%20viaje%2021> "-47.351588155143";
+  <coordenada%20de%20viaje%2022> "-81.9349286612123";
+  <Fecha%20viaje%202> "2022-10-20T00:00:00Z";
+  <Transporte%202> "Autobus" .
+
+<Luffy%20Jimenez%20Salazar> <ID> "67";
+  <Tiene> "23";
+  <latitud> "-0.668797921389341";
+  <longitud> "60.8927085064352";
+  <Sigue%20a> "73";
+  <también%20sigue%20a> "91";
+  <coordenada%20de%20viaje%2011> "-7.83321687486023";
+  <coordenada%20de%20viaje%2012> "-115.458399765193";
+  <Fecha%20viaje%201> "2021-10-04T00:00:00Z";
+  <Transporte%20viaje%201> "Otro";
+  <coordenada%20de%20viaje%2021> "-39.5279730437323";
+  <coordenada%20de%20viaje%2022> "-28.2784410472959";
+  <Fecha%20viaje%202> "2022-05-08T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Nahomy%20Segura%20Monkey> <ID> "68";
+  <Tiene> "20";
+  <latitud> "73.5384337697178";
+  <longitud> "95.5903551634401";
+  <Sigue%20a> "80";
+  <también%20sigue%20a> "17";
+  <coordenada%20de%20viaje%2011> "-19.3792072311044";
+  <coordenada%20de%20viaje%2012> "-58.5104591399431";
+  <Fecha%20viaje%201> "2021-08-06T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "-34.7073611570522";
+  <coordenada%20de%20viaje%2022> "-159.578263135627";
+  <Fecha%20viaje%202> "2022-07-08T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Carol%20D%20Alfaro> <ID> "69";
+  <Tiene> "27";
+  <latitud> "73.4977408871055";
+  <longitud> "60.7010014727712";
+  <Sigue%20a> "28";
+  <también%20sigue%20a> "70";
+  <coordenada%20de%20viaje%2011> "-44.8962532868609";
+  <coordenada%20de%20viaje%2012> "-53.6049576010555";
+  <Fecha%20viaje%201> "2021-09-16T00:00:00Z";
+  <Transporte%20viaje%201> "A pie";
+  <coordenada%20de%20viaje%2021> "38.7131036957726";
+  <coordenada%20de%20viaje%2022> "42.9743411857635";
+  <Fecha%20viaje%202> "2022-02-09T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Carlos%20Martinez%20Alvarado> <ID> "71";
+  <Tiene> "16";
+  <latitud> "74.5350191323087";
+  <longitud> "-157.653877576813";
+  <Sigue%20a> "78";
+  <también%20sigue%20a> "48";
+  <coordenada%20de%20viaje%2011> "-65.4242352582514";
+  <coordenada%20de%20viaje%2012> "135.11154611595";
+  <Fecha%20viaje%201> "2021-03-12T00:00:00Z";
+  <Transporte%20viaje%201> "Otro";
+  <coordenada%20de%20viaje%2021> "10.156367411837";
+  <coordenada%20de%20viaje%2022> "39.1069407016039";
+  <Fecha%20viaje%202> "2022-07-08T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Nahomy%20Sibaja%20Badilla> <ID> "72";
+  <Tiene> "23";
+  <latitud> "-70.5520178284496";
+  <longitud> "-54.0800654981285";
+  <Sigue%20a> "62";
+  <también%20sigue%20a> "25";
+  <coordenada%20de%20viaje%2011> "4.90274447947741";
+  <coordenada%20de%20viaje%2012> "-143.345157830045";
+  <Fecha%20viaje%201> "2021-03-07T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "-36.6060484712943";
+  <coordenada%20de%20viaje%2022> "-59.5908384304494";
+  <Fecha%20viaje%202> "2022-03-29T00:00:00Z";
+  <Transporte%202> "Otro" .
+
+<Yarlin%20Vargas%20Monkey> <ID> "73";
+  <Tiene> "40";
+  <latitud> "52.6819059625268";
+  <longitud> "68.8608876429498";
+  <Sigue%20a> "72";
+  <también%20sigue%20a> "100";
+  <coordenada%20de%20viaje%2011> "-8.80210143048316";
+  <coordenada%20de%20viaje%2012> "-123.852926585823";
+  <Fecha%20viaje%201> "2021-06-17T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "-45.7823826000094";
+  <coordenada%20de%20viaje%2022> "90.8391958102584";
+  <Fecha%20viaje%202> "2022-07-19T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Bob%20Segura%20Valverde> <ID> "74";
+  <Tiene> "45";
+  <latitud> "-2.43012637831271";
+  <longitud> "-32.8088901378214";
+  <Sigue%20a> "58";
+  <también%20sigue%20a> "44";
+  <coordenada%20de%20viaje%2011> "50.9435225464404";
+  <coordenada%20de%20viaje%2012> "86.0454912576824";
+  <Fecha%20viaje%201> "2021-02-21T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "-14.2094779713079";
+  <coordenada%20de%20viaje%2022> "-50.2078046835959";
+  <Fecha%20viaje%202> "2022-07-11T00:00:00Z";
+  <Transporte%202> "Otro" .
+
+<Bob%20Calderon%20Alfaro> <ID> "75";
+  <Tiene> "11";
+  <latitud> "-76.7238130001351";
+  <longitud> "49.1441207192838";
+  <Sigue%20a> "85";
+  <también%20sigue%20a> "87";
+  <coordenada%20de%20viaje%2011> "71.9926112517715";
+  <coordenada%20de%20viaje%2012> "78.1590575538576";
+  <Fecha%20viaje%201> "2021-08-15T00:00:00Z";
+  <Transporte%20viaje%201> "Bicicleta";
+  <coordenada%20de%20viaje%2021> "-22.5104287220165";
+  <coordenada%20de%20viaje%2022> "150.291335703805";
+  <Fecha%20viaje%202> "2022-12-13T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Francisco%20Vargas%20Badilla> <ID> "76";
+  <Tiene> "38";
+  <latitud> "-74.8974118474871";
+  <longitud> "-176.019167555496";
+  <Sigue%20a> "18";
+  <también%20sigue%20a> "19";
+  <coordenada%20de%20viaje%2011> "26.5708975866437";
+  <coordenada%20de%20viaje%2012> "-23.139445502311";
+  <Fecha%20viaje%201> "2021-02-07T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "66.2473664805293";
+  <coordenada%20de%20viaje%2022> "14.3462912924588";
+  <Fecha%20viaje%202> "2022-11-18T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Carlos%20Messi%20Alvarado> <ID> "77";
+  <Tiene> "37";
+  <latitud> "-62.5570598943159";
+  <longitud> "-17.0078913029283";
+  <Sigue%20a> "71";
+  <también%20sigue%20a> "85";
+  <coordenada%20de%20viaje%2011> "85.8692066324875";
+  <coordenada%20de%20viaje%2012> "25.7131180074066";
+  <Fecha%20viaje%201> "2021-07-13T00:00:00Z";
+  <Transporte%20viaje%201> "Bicicleta";
+  <coordenada%20de%20viaje%2021> "33.6970378970727";
+  <coordenada%20de%20viaje%2022> "82.7668422739953";
+  <Fecha%20viaje%202> "2022-11-01T00:00:00Z";
+  <Transporte%202> "Avion" .
+
+<Nahomy%20Cordero%20Monge> <ID> "78";
+  <Tiene> "31";
+  <latitud> "52.2980582155287";
+  <longitud> "96.435794653371";
+  <Sigue%20a> "35";
+  <también%20sigue%20a> "4";
+  <coordenada%20de%20viaje%2011> "81.9817661913112";
+  <coordenada%20de%20viaje%2012> "164.020286165178";
+  <Fecha%20viaje%201> "2021-06-30T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "30.2584416652098";
+  <coordenada%20de%20viaje%2022> "-93.720134133473";
+  <Fecha%20viaje%202> "2022-02-02T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Daniel%20Vargas%20Vargas> <ID> "79";
+  <Tiene> "37";
+  <latitud> "74.655267088674";
+  <longitud> "-130.309490086511";
+  <Sigue%20a> "55";
+  <también%20sigue%20a> "54";
+  <coordenada%20de%20viaje%2011> "-33.7380508007482";
+  <coordenada%20de%20viaje%2012> "55.0250592827797";
+  <Fecha%20viaje%201> "2021-05-09T00:00:00Z";
+  <Transporte%20viaje%201> "Avion";
+  <coordenada%20de%20viaje%2021> "53.0698149930686";
+  <coordenada%20de%20viaje%2022> "-36.9089051149786";
+  <Fecha%20viaje%202> "2022-01-08T00:00:00Z";
+  <Transporte%202> "Otro" .
+
+<Alice%20Martinez%20Badilla> <ID> "80";
+  <Tiene> "27";
+  <latitud> "-50.9736855374649";
+  <longitud> "128.13861630857";
+  <Sigue%20a> "4";
+  <también%20sigue%20a> "68";
+  <coordenada%20de%20viaje%2011> "24.6323052886873";
+  <coordenada%20de%20viaje%2012> "55.6424262654036";
+  <Fecha%20viaje%201> "2021-02-07T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "-76.4154656650499";
+  <coordenada%20de%20viaje%2022> "-1.71070779673755";
+  <Fecha%20viaje%202> "2022-03-04T00:00:00Z";
+  <Transporte%202> "Otro" .
+
+<Yarlin%20Cordero%20Monge> <ID> "81";
+  <Tiene> "21";
+  <latitud> "21.8108726525679";
+  <longitud> "105.335490563884";
+  <Sigue%20a> "7";
+  <también%20sigue%20a> "82";
+  <coordenada%20de%20viaje%2011> "-8.11017042025924";
+  <coordenada%20de%20viaje%2012> "-96.5186468325555";
+  <Fecha%20viaje%201> "2021-06-03T00:00:00Z";
+  <Transporte%20viaje%201> "Barco";
+  <coordenada%20de%20viaje%2021> "-55.3956937557086";
+  <coordenada%20de%20viaje%2022> "95.763731226325";
+  <Fecha%20viaje%202> "2022-01-11T00:00:00Z";
+  <Transporte%202> "Bicicleta" .
+
+<Yarlin%20Sibaja%20Alfaro> <ID> "82";
+  <Tiene> "31";
+  <latitud> "-10.8465712890029";
+  <longitud> "109.234982170165";
+  <Sigue%20a> "96";
+  <también%20sigue%20a> "79";
+  <coordenada%20de%20viaje%2011> "78.7848998140544";
+  <coordenada%20de%20viaje%2012> "-177.257582768798";
+  <Fecha%20viaje%201> "2021-01-30T00:00:00Z";
+  <Transporte%20viaje%201> "Barco";
+  <coordenada%20de%20viaje%2021> "-53.4336032951251";
+  <coordenada%20de%20viaje%2022> "-15.7566645182669";
+  <Fecha%20viaje%202> "2022-04-13T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Isaac%20Calvo%20Salazar> <ID> "83";
+  <Tiene> "26";
+  <latitud> "-19.4238226767629";
+  <longitud> "105.85333510302";
+  <Sigue%20a> "45";
+  <también%20sigue%20a> "43";
+  <coordenada%20de%20viaje%2011> "-81.5598021168262";
+  <coordenada%20de%20viaje%2012> "-39.7343395650387";
+  <Fecha%20viaje%201> "2021-02-22T00:00:00Z";
+  <Transporte%20viaje%201> "A pie";
+  <coordenada%20de%20viaje%2021> "80.9255798812956";
+  <coordenada%20de%20viaje%2022> "83.27821187675";
+  <Fecha%20viaje%202> "2022-05-25T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Fabricio%20Smith%20Valverde> <ID> "84";
+  <Tiene> "54";
+  <latitud> "-77.3972596926615";
+  <longitud> "148.200555033982";
+  <Sigue%20a> "36";
+  <también%20sigue%20a> "49";
+  <coordenada%20de%20viaje%2011> "36.4767550583929";
+  <coordenada%20de%20viaje%2012> "-161.296277185902";
+  <Fecha%20viaje%201> "2021-09-06T00:00:00Z";
+  <Transporte%20viaje%201> "Barco";
+  <coordenada%20de%20viaje%2021> "-68.5490108141676";
+  <coordenada%20de%20viaje%2022> "-126.837692549452";
+  <Fecha%20viaje%202> "2022-10-01T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Daniel%20Segura%20Monge> <ID> "85";
+  <Tiene> "37";
+  <latitud> "-5.90686156880111";
+  <longitud> "21.7473045922816";
+  <Sigue%20a> "7";
+  <también%20sigue%20a> "26";
+  <coordenada%20de%20viaje%2011> "56.9944165600464";
+  <coordenada%20de%20viaje%2012> "-169.341528089717";
+  <Fecha%20viaje%201> "2021-03-03T00:00:00Z";
+  <Transporte%20viaje%201> "Avion";
+  <coordenada%20de%20viaje%2021> "-75.5128724919632";
+  <coordenada%20de%20viaje%2022> "69.0046475082636";
+  <Fecha%20viaje%202> "2022-06-05T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Steyfell%20Vilchez%20Morgan> <ID> "86";
+  <Tiene> "20";
+  <latitud> "-52.439706386067";
+  <longitud> "149.711556695402";
+  <Sigue%20a> "22";
+  <también%20sigue%20a> "47";
+  <coordenada%20de%20viaje%2011> "14.1642071865499";
+  <coordenada%20de%20viaje%2012> "124.868520889431";
+  <Fecha%20viaje%201> "2021-11-01T00:00:00Z";
+  <Transporte%20viaje%201> "Barco";
+  <coordenada%20de%20viaje%2021> "-86.652711443603";
+  <coordenada%20de%20viaje%2022> "171.205081315711";
+  <Fecha%20viaje%202> "2022-12-23T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Francisco%20Cordero%20Monkey> <ID> "87";
+  <Tiene> "3";
+  <latitud> "-70.3450207784772";
+  <longitud> "-38.7391927465796";
+  <Sigue%20a> "12";
+  <también%20sigue%20a> "61";
+  <coordenada%20de%20viaje%2011> "-29.7800604673102";
+  <coordenada%20de%20viaje%2012> "-95.1558868400753";
+  <Fecha%20viaje%201> "2021-03-14T00:00:00Z";
+  <Transporte%20viaje%201> "A pie";
+  <coordenada%20de%20viaje%2021> "87.0599750429392";
+  <coordenada%20de%20viaje%2022> "-1.75873090513051";
+  <Fecha%20viaje%202> "2022-02-15T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Carlos%20Martinez%20Salazar> <ID> "88";
+  <Tiene> "37";
+  <latitud> "35.8569054398686";
+  <longitud> "56.0035638324916";
+  <Sigue%20a> "100";
+  <también%20sigue%20a> "75";
+  <coordenada%20de%20viaje%2011> "75.2192975906655";
+  <coordenada%20de%20viaje%2012> "158.831502953544";
+  <Fecha%20viaje%201> "2021-06-30T00:00:00Z";
+  <Transporte%20viaje%201> "Avion";
+  <coordenada%20de%20viaje%2021> "-5.20312305539846";
+  <coordenada%20de%20viaje%2022> "-56.0572972800583";
+  <Fecha%20viaje%202> "2022-10-05T00:00:00Z";
+  <Transporte%202> "Barco" .
+
+<Isaac%20Sibaja%20Alfaro> <ID> "89";
+  <Tiene> "20";
+  <latitud> "-31.160678062588";
+  <longitud> "72.5571709033102";
+  <Sigue%20a> "67";
+  <también%20sigue%20a> "68";
+  <coordenada%20de%20viaje%2011> "-87.0536467479542";
+  <coordenada%20de%20viaje%2012> "-60.1398091670126";
+  <Fecha%20viaje%201> "2021-09-26T00:00:00Z";
+  <Transporte%20viaje%201> "Tren";
+  <coordenada%20de%20viaje%2021> "-24.0758965350688";
+  <coordenada%20de%20viaje%2022> "-59.5470472611487";
+  <Fecha%20viaje%202> "2022-08-05T00:00:00Z";
+  <Transporte%202> "Avion" .
+
+<Nahomy%20Vargas%20Messi> <ID> "90";
+  <Tiene> "47";
+  <latitud> "-7.91126240976155";
+  <longitud> "-165.283913807943";
+  <Sigue%20a> "20";
+  <también%20sigue%20a> "13";
+  <coordenada%20de%20viaje%2011> "55.916432775557";
+  <coordenada%20de%20viaje%2012> "-13.0963383894414";
+  <Fecha%20viaje%201> "2021-09-02T00:00:00Z";
+  <Transporte%20viaje%201> "Avion";
+  <coordenada%20de%20viaje%2021> "41.7188442824408";
+  <coordenada%20de%20viaje%2022> "-136.299720034003";
+  <Fecha%20viaje%202> "2022-05-30T00:00:00Z";
+  <Transporte%202> "Autobus" .
+
+<Francisco%20D%20Barboza> <ID> "91";
+  <Tiene> "34";
+  <latitud> "-14.4305625697598";
+  <longitud> "-159.330818206072";
+  <Sigue%20a> "77";
+  <también%20sigue%20a> "95";
+  <coordenada%20de%20viaje%2011> "25.4167225118726";
+  <coordenada%20de%20viaje%2012> "130.570822739974";
+  <Fecha%20viaje%201> "2021-04-07T00:00:00Z";
+  <Transporte%20viaje%201> "Otro";
+  <coordenada%20de%20viaje%2021> "-41.9305682228878";
+  <coordenada%20de%20viaje%2022> "80.9981296118349";
+  <Fecha%20viaje%202> "2022-09-25T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Carol%20Calvo%20Barboza> <ID> "92";
+  <Tiene> "33";
+  <latitud> "-81.260126112029";
+  <longitud> "-146.766755729914";
+  <Sigue%20a> "86";
+  <también%20sigue%20a> "81";
+  <coordenada%20de%20viaje%2011> "-54.7487426362932";
+  <coordenada%20de%20viaje%2012> "95.3869489207864";
+  <Fecha%20viaje%201> "2021-07-06T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "-65.9402484772727";
+  <coordenada%20de%20viaje%2022> "-141.569494474679";
+  <Fecha%20viaje%202> "2022-07-01T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Miriam%20Vilchez%20Badilla> <ID> "93";
+  <Tiene> "41";
+  <latitud> "5.06921339314431";
+  <longitud> "4.88470352254808";
+  <Sigue%20a> "54";
+  <también%20sigue%20a> "43";
+  <coordenada%20de%20viaje%2011> "-20.9762442251667";
+  <coordenada%20de%20viaje%2012> "-61.0173221770674";
+  <Fecha%20viaje%201> "2021-05-15T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "18.0172426812351";
+  <coordenada%20de%20viaje%2022> "175.979541689157";
+  <Fecha%20viaje%202> "2022-12-23T00:00:00Z";
+  <Transporte%202> "Autobus" .
+
+<Steyfell%20Smith%20Morgan> <ID> "94";
+  <Tiene> "19";
+  <latitud> "-33.6412260308862";
+  <longitud> "-70.3058130852878";
+  <Sigue%20a> "68";
+  <también%20sigue%20a> "65";
+  <coordenada%20de%20viaje%2011> "-14.9694646708667";
+  <coordenada%20de%20viaje%2012> "143.116359952837";
+  <Fecha%20viaje%201> "2021-12-09T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "14.6313252439722";
+  <coordenada%20de%20viaje%2022> "129.705874202773";
+  <Fecha%20viaje%202> "2022-09-25T00:00:00Z";
+  <Transporte%202> "Bicicleta" .
+
+<Yarlin%20Calderon%20Valverde> <ID> "95";
+  <Tiene> "17";
+  <latitud> "-72.7122938632965";
+  <longitud> "47.4807074759156";
+  <Sigue%20a> "28";
+  <también%20sigue%20a> "93";
+  <coordenada%20de%20viaje%2011> "-28.9945449214429";
+  <coordenada%20de%20viaje%2012> "82.3248420562595";
+  <Fecha%20viaje%201> "2021-02-11T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "3.39832357596606";
+  <coordenada%20de%20viaje%2022> "-146.672877408564";
+  <Fecha%20viaje%202> "2022-01-11T00:00:00Z";
+  <Transporte%202> "A pie" .
+
+<Miriam%20Cordero%20Morgan> <ID> "96";
+  <Tiene> "38";
+  <latitud> "-42.5941572524607";
+  <longitud> "115.931532718241";
+  <Sigue%20a> "56";
+  <también%20sigue%20a> "10";
+  <coordenada%20de%20viaje%2011> "-19.1653016488999";
+  <coordenada%20de%20viaje%2012> "-44.2706020083278";
+  <Fecha%20viaje%201> "2021-06-30T00:00:00Z";
+  <Transporte%20viaje%201> "Avion";
+  <coordenada%20de%20viaje%2021> "61.0540311411023";
+  <coordenada%20de%20viaje%2022> "-21.2328279856592";
+  <Fecha%20viaje%202> "2022-06-01T00:00:00Z";
+  <Transporte%202> "Avion" .
+
+<Carlos%20Segura%20Valverde> <ID> "97";
+  <Tiene> "20";
+  <latitud> "51.6891554463655";
+  <longitud> "92.2946343384683";
+  <Sigue%20a> "69";
+  <también%20sigue%20a> "32";
+  <coordenada%20de%20viaje%2011> "-45.5679935077205";
+  <coordenada%20de%20viaje%2012> "-169.221773156896";
+  <Fecha%20viaje%201> "2021-11-23T00:00:00Z";
+  <Transporte%20viaje%201> "Autobus";
+  <coordenada%20de%20viaje%2021> "75.6866448931396";
+  <coordenada%20de%20viaje%2022> "-79.6632857993245";
+  <Fecha%20viaje%202> "2022-10-08T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Daniel%20Segura%20Morgan> <ID> "98";
+  <Tiene> "41";
+  <latitud> "38.6743122898042";
+  <longitud> "-161.336976271123";
+  <Sigue%20a> "14";
+  <también%20sigue%20a> "45";
+  <coordenada%20de%20viaje%2011> "4.46723164524883";
+  <coordenada%20de%20viaje%2012> "-73.688027607277";
+  <Fecha%20viaje%201> "2021-08-29T00:00:00Z";
+  <Transporte%20viaje%201> "Avion";
+  <coordenada%20de%20viaje%2021> "49.7766754589975";
+  <coordenada%20de%20viaje%2022> "-177.804778553545";
+  <Fecha%20viaje%202> "2022-06-10T00:00:00Z";
+  <Transporte%202> "Tren" .
+
+<Yarlin%20Martinez%20Alfaro> <ID> "99";
+  <Tiene> "26";
+  <latitud> "-40.6143611948937";
+  <longitud> "172.413972532377";
+  <Sigue%20a> "73";
+  <también%20sigue%20a> "30";
+  <coordenada%20de%20viaje%2011> "-75.8115238929167";
+  <coordenada%20de%20viaje%2012> "176.3536158856";
+  <Fecha%20viaje%201> "2021-02-13T00:00:00Z";
+  <Transporte%20viaje%201> "A pie";
+  <coordenada%20de%20viaje%2021> "-82.5060077989474";
+  <coordenada%20de%20viaje%2022> "16.7136213742197";
+  <Fecha%20viaje%202> "2022-07-05T00:00:00Z";
+  <Transporte%202> "Otro" .
+
+<Luffy%20Segura%20Messi> <ID> "100";
+  <Tiene> "19";
+  <latitud> "71.6571810236201";
+  <longitud> "63.2414916995913";
+  <Sigue%20a> "45";
+  <también%20sigue%20a> "24";
+  <coordenada%20de%20viaje%2011> "87.7512875525281";
+  <coordenada%20de%20viaje%2012> "12.9897233471274";
+  <Fecha%20viaje%201> "2021-04-18T00:00:00Z";
+  <Transporte%20viaje%201> "Barco";
+  <coordenada%20de%20viaje%2021> "2.55122065544128";
+  <coordenada%20de%20viaje%2022> "16.6524920705706";
+  <Fecha%20viaje%202> "2022-09-29T00:00:00Z";
+  <Transporte%202> "Bicicleta" .
