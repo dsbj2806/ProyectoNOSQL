@@ -186,6 +186,17 @@ Para realizar el mapeo se debio dividir las columnas de la longitud y latitud co
 
 ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/8dc60b26-389e-4b86-8b37-feffa2ef3b80)
 
+### Consultas en GraphDB
+
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/d7d6099d-73d1-44f3-93d1-00cc27038813)
+
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/5079c1c3-c290-4023-b075-9fa7c5850687)
+
+![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/efa84f5e-2c1a-4648-92eb-0d38b5246d08)
+
+
+
+
 
 
 
