@@ -194,6 +194,8 @@ Para realizar el mapeo se debio dividir las columnas de la longitud y latitud co
 
 ![image](https://github.com/dsbj2806/ProyectoNOSQL/assets/146558517/efa84f5e-2c1a-4648-92eb-0d38b5246d08)
 
+Allí se seleccionan las variables de la tabla y se pueden generar distintos resultados, entré ellos el promedio de la edad por medio de transporte. Esto es posible al seleccionar en cell "Average" y en column medio de transporte.
+
 
 
 
